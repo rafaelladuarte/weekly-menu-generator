@@ -34,7 +34,9 @@
             "Adicione a fruta por cima do iogurte.",
             "Misture levemente e sirva."
         ],
-        "categorias": ["Café da Manhã"],
+        "categorias": [
+            "Café da Manhã"
+        ],
         "image": "iogurte_banana.jpg"
     },
     {
@@ -50,8 +52,12 @@
             "Passe o doce de leite uniformemente sobre o pão.",
             "Sirva imediatamente."
         ],
-        "categorias": ["Fitness"],
-        "tags": ["Pré-treino"],
+        "categorias": [
+            "Fitness"
+        ],
+        "tags": [
+            "Pré-treino"
+        ],
         "image": "pao_forma_doce_leite.png"
     },
     {
@@ -69,28 +75,13 @@
             "Misture as rodelas da banana com a granola em uma tigela.",
             "Regue com mel e sirva."
         ],
-        "categorias": ["Fitness"],
-        "tags": ["Pré-treino"],
-        "image": "banana_granola_mel.png"
-    },
-    {
-        "nome": "Tapioca com Goiabada e Mussarela",
-        "verificado": false,
-        "porção": 1,
-        "ingredientes": {
-            "Tapioca": "1 porção (cerca de 50g)",
-            "Goiabada": "1 colher de sopa",
-            "Mussarela": "1 fatia"
-        },
-        "receita": [
-            "Prepare a tapioca conforme instruções da embalagem.",
-            "Enquanto ainda quente, adicione a fatia de mussarela e a porção de goiabada.",
-            "Dobre a tapioca ao meio para derreter levemente a mussarela e a goiabada.",
-            "Sirva quente."
+        "categorias": [
+            "Fitness"
         ],
-        "categorias": ["Fitness"],
-        "tags": ["Pré-treino"],
-        "image": "tapioca_goiabada_mussarela.jpg"
+        "tags": [
+            "Pré-treino"
+        ],
+        "image": "banana_granola_mel.png"
     },
     {
         "nome": "Tapioca com Frango Desfiado",
@@ -106,7 +97,9 @@
             "Recheie com o frango desfiado previamente cozido.",
             "Sirva a tapioca."
         ],
-        "categorias": ["Café da Manhã"],
+        "categorias": [
+            "Café da Manhã"
+        ],
         "image": "tapioca_frango_desfiado.png"
     },
     {
@@ -124,7 +117,9 @@
             "Sirva o cuscuz com o ovo por cima.",
             "Tempere com sal a gosto."
         ],
-        "categorias": ["Café da Manhã"],
+        "categorias": [
+            "Café da Manhã"
+        ],
         "image": "cuscuz_ovo.png"
     },
     {
@@ -140,7 +135,9 @@
             "Passe o creme de ricota light uniformemente.",
             "Sirva imediatamente."
         ],
-        "categorias": ["Café da Manhã"],
+        "categorias": [
+            "Café da Manhã"
+        ],
         "image": "torrada_ricota.png"
     },
     {
@@ -165,7 +162,7 @@
         "image": "salada_de_frango.jpg"
     },
     {
-        "nome": "Purê de Batata",
+        "nome": "Purê de Batata Inglesa",
         "verificado": true,
         "porção": 3,
         "ingredientes": {
@@ -262,7 +259,7 @@
     },
     {
         "nome": "Batata Recheada com Frango",
-        "verificado": false,
+        "verificado": true,
         "porção": 4,
         "ingredientes": {
             "Batata": "4 unidades grandes",
@@ -292,25 +289,33 @@
     },
     {
         "nome": "Nuggets Caseiro",
-        "verificado": false,
+        "verificado": true,
         "porção": 2,
         "ingredientes": {
-            "Frango Desfiado": "200g",
-            "Ovos": "1",
-            "Musssarela": "2 fatias"
+            "Peito de Frango": "500g",
+            "Ovos": "1 unidade",
+            "Cebola": "1 unidade",
+            "Farinha de Trigo": "Sob Demandas",
+            "Farinha de Rosca": "Sob Demandas",
+            "Mussarela": "2 fatias",
+            "Sal": "A gosto",
+            "Pimenta do Reino": "A gosto",
+            "Alho": "A gosto"
         },
         "receita": [
-            "Em uma tigela, mexa os ovos até ficarem homogêneos",
-            "No mixer, adicione o frango desfiado e as fatias de muçarela. Bata até obter uma mistura uniforme",
-            "Com a massa pronta, corte-a em cubinhos.",
-            "Unte a air fryer com um pouco de azeite ou spray de cozinha.",
-            "Coloque os cubinhos na air fryer e asse por 5 minutos de cada lado, ou até que estejam dourados e crocantes.",
-            "Retire e sirva quente"
+            "Em um processador ou liquidificador você deverá acrescentar o peito de frango junto com o sal, pimenta-do-reino, cebola e os dentes de alho.",
+            "Processe os ingredientes ou bata no liquidificador.",
+            "Deixe os ingredientes bem homogêneos.",
+            "Faça o formato de nuggets de acordo com a sua vontade.",
+            "Para empanar você irá precisar separar em 3 recipientes a farinha de rosca, o ovo e a farinha de trigo.",
+            "Para o frango processado não grudar em suas mão passe um pouco de margarina nas mesmas.",
+            "Passe o nuggets na farinha de trigo, depois no ovo e depois na farinha de rosca (repita esse procedimento duas vezes).",
+            "O nuggets estará pronto para ser frito ou assado de acordo com sua preferência."
         ],
         "categorias": [
             "Lanches"
         ],
-        "image": "sem-imagem.png"
+        "image": "nuggets_caseiro.jpg"
     },
     {
         "nome": "Crepioca com Requeijão Cremoso e Peito de Peru",
@@ -337,35 +342,6 @@
         "image": "crepioca_requeijao_peru.png"
     },
     {
-        "nome": "X-Tudo Caseiro",
-        "verificado": false,
-        "porção": 2,
-        "ingredientes": {
-            "Pão de Hambúrguer": "2 unidades",
-            "Hambúrguer": "2 unidades",
-            "Queijo Mussarela": "2 fatias",
-            "Alface": "2 folhas",
-            "Tomate": "4 rodelas",
-            "Ovo": "2 unidades (fritos)",
-            "Peito de Peru": "2 fatias",
-            "Maionese": "a gosto",
-            "Ketchup": "a gosto",
-            "Mostarda": "a gosto"
-        },
-        "receita": [
-            "Grelhe os hambúrgueres em uma frigideira até o ponto desejado.",
-            "Frite os ovos em uma frigideira separada.",
-            "Corte os pães ao meio e aqueça levemente em uma chapa ou frigideira.",
-            "Monte o lanche: passe maionese nas metades do pão, adicione o hambúrguer, o queijo mussarela, o ovo frito, o peito de peru, a alface e o tomate.",
-            "Finalize com ketchup e mostarda a gosto.",
-            "Feche o pão e sirva acompanhado de batatas fritas ou salada, se preferir."
-        ],
-        "categorias": [
-            "Lanches"
-        ],
-        "image": "sem-imagem.png"
-    },
-    {
         "nome": "Panqueca com Carne Moída",
         "verificado": true,
         "porção": 10,
@@ -382,7 +358,6 @@
             "Creme de Leite": "1 caixa",
             "Queijo Ralado": "a gosto",
             "Sal": "a gosto"
-           
         },
         "receita": [
             "Para a Massa: Bata no liquidificador os ovos, o leite, o óleo, e acrescente a farinha de trigo aos poucos.",
@@ -403,7 +378,6 @@
             "Disponha as panquecas já prontas no refratário e despeje sobre elas o restante do molho.",
             "Polvilhe queijo ralado sobre as panquecas.",
             "Leve ao forno para gratinar, em fogo médio, por 20 minutos ou até que o queijo esteja derretido."
-
         ],
         "categorias": [
             "Lanches"
@@ -436,7 +410,7 @@
         "categorias": [
             "Prato Principal"
         ],
-        "image": "sem-imagem.png"
+        "image": "macarrao-almondega.png"
     },
     {
         "nome": "Frango Cremoso",
@@ -459,7 +433,7 @@
         "categorias": [
             "Prato Principal"
         ],
-        "image": "sem-imagem.png"
+        "image": "frango-cremoso.jpg"
     },
     {
         "nome": "Coxa e Sobrecoxa Assada",
@@ -482,7 +456,7 @@
         "categorias": [
             "Prato Principal"
         ],
-        "image": "sem-imagem.png"
+        "image": "coxa-sobre-coxa.jpg"
     },
     {
         "nome": "Frango à Parmegiana",
@@ -507,7 +481,7 @@
         "categorias": [
             "Prato Principal"
         ],
-        "image": "sem-imagem.png"
+        "image": "frango-a-parmegiana.jpg"
     },
     {
         "nome": "Frango Xadrez",
@@ -532,7 +506,7 @@
         "categorias": [
             "Prato Principal"
         ],
-        "image": "sem-imagem.png"
+        "image": "frango-xadrez.jpeg"
     },
     {
         "nome": "Frango à Milanesa",
@@ -554,7 +528,7 @@
         "categorias": [
             "Prato Principal"
         ],
-        "image": "sem-imagem.png"
+        "image": "frango-milanesa.png"
     },
     {
         "nome": "Strogonoff de Frango",
@@ -577,7 +551,7 @@
         "categorias": [
             "Prato Principal"
         ],
-        "image": "sem-imagem.png"
+        "image": "strogonoff-de-frango.jpeg"
     },
     {
         "nome": "Frango Grelhado",
@@ -599,32 +573,7 @@
         "categorias": [
             "Prato Principal"
         ],
-        "image": "sem-imagem.png"
-    },
-    {
-        "nome": "Frango Assado com Ervas e Batata",
-        "verificado": false,
-        "porção": 4,
-        "ingredientes": {
-            "Frango Inteiro": "1 unidade (aproximadamente 1.5kg)",
-            "Alho": "4 dentes picados",
-            "Alecrim": "2 ramos",
-            "Tomilho": "2 ramos",
-            "Sal": "a gosto",
-            "Azeite": "3 colheres de sopa",
-            "Limão": "1 unidade"
-        },
-        "receita": [
-            "Tempere o frango com sal, alho, azeite, suco de limão e as ervas. Deixe marinar por 1 hora.",
-            "Pré-aqueça o forno a 200°C.",
-            "Coloque o frango em uma assadeira e distribua batatas cortadas em pedaços ao redor.",
-            "Cubra com papel-alumínio e asse por 1 hora. Retire o papel e deixe dourar por mais 30 minutos.",
-            "Sirva quente acompanhado das batatas."
-        ],
-        "categorias": [
-            "Prato Principal"
-        ],
-        "image": "sem-imagem.png"
+        "image": "frango-grelhado.jpg"
     },
     {
         "nome": "Frango à Passarinho com Cebola",
@@ -647,7 +596,7 @@
         "categorias": [
             "Prato Principal"
         ],
-        "image": "sem-imagem.png"
+        "image": "frango-passarinho.jpg"
     },
     {
         "nome": "Filé de Frango ao Molho de Açafrão",
@@ -671,7 +620,7 @@
         "categorias": [
             "Prato Principal"
         ],
-        "image": "sem-imagem.png"
+        "image": "frango-molho-acafrao.jpg"
     },
     {
         "nome": "Lasanha de Frango",
@@ -696,7 +645,7 @@
         "categorias": [
             "Prato Principal"
         ],
-        "image": "sem-imagem.png"
+        "image": "lasanha-frango.jpg"
     },
     {
         "nome": "Fricassê",
@@ -720,7 +669,7 @@
         "categorias": [
             "Prato Principal"
         ],
-        "image": "sem-imagem.png"
+        "image": "fricasse.webp"
     },
     {
         "nome": "Escondidinho de Frango",
@@ -744,7 +693,7 @@
         "categorias": [
             "Prato Principal"
         ],
-        "image": "sem-imagem.png"
+        "image": "escondidinho-frango.jpg"
     },
     {
         "nome": "Frango com Legumes",
@@ -770,7 +719,7 @@
         "categorias": [
             "Prato Principal"
         ],
-        "image": "sem-imagem.png"
+        "image": "frango-legumes.jpg"
     },
     {
         "nome": "Frango Teriyaki",
@@ -792,7 +741,7 @@
         "categorias": [
             "Prato Principal"
         ],
-        "image": "sem-imagem.png"
+        "image": "frango-teriyaki.jpg"
     },
     {
         "nome": "Frango ao Molho Curry",
@@ -817,7 +766,7 @@
         "categorias": [
             "Prato Principal"
         ],
-        "image": "sem-imagem.png"
+        "image": "Frango-ao-molho-curry.webp"
     },
     {
         "nome": "Frango ao Molho Mostarda",
@@ -841,7 +790,7 @@
         "categorias": [
             "Prato Principal"
         ],
-        "image": "sem-imagem.png"
+        "image": "File-de-Frango-ao-Molho-de-Mostarda.jpg"
     },
     {
         "nome": "Galinha Caipira",
@@ -1561,7 +1510,7 @@
     },
     {
         "nome": "Purê de Batata Doce",
-        "verificado": false,
+        "verificado": true,
         "porção": 4,
         "ingredientes": {
             "Batata Doce": "500g",
@@ -1579,7 +1528,7 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "pure-batata-doce.webp"
     },
     {
         "nome": "Batata Doce Rústica",
@@ -1650,27 +1599,6 @@
         "image": "sem-imagem.png"
     },
     {
-        "nome": "Purê de Batata Inglesa",
-        "verificado": false,
-        "porção": 4,
-        "ingredientes": {
-            "Batata Inglesa": "500g",
-            "Leite": "1/2 xícara",
-            "Manteiga": "2 colheres de sopa",
-            "Sal": "a gosto",
-            "Noz-moscada": "a gosto"
-        },
-        "receita": [
-            "Cozinhe as batatas descascadas até ficarem macias.",
-            "Amasse as batatas e misture com leite e manteiga.",
-            "Tempere com sal e uma pitada de noz-moscada.",
-            "Mexa bem até atingir a textura desejada e sirva quente."
-        ],"categorias": [
-            "Guarnição"
-        ],
-        "image": "sem-imagem.png"
-    },
-    {
         "nome": "Batata Inglesa Gratinada",
         "verificado": false,
         "porção": 4,
@@ -1699,7 +1627,7 @@
     },
     {
         "nome": "Purê de Abóbora Cabotiá",
-        "verificado": false,
+        "verificado": true,
         "porção": 4,
         "ingredientes": {
             "Abóbora Cabotiá": "500g",
@@ -1717,7 +1645,7 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "pure-de-abobora.jpg"
     },
     {
         "nome": "Abóbora Cabotiá Refogada",
@@ -1839,7 +1767,32 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "pure-mandioca.webp"
+    },
+    {
+        "nome": "Purê de Banana da Terra",
+        "verificado": true,
+        "porção": 4,
+        "ingredientes": {
+            "Banana da Terra": "6 unidades",
+            "Cebola": "1 unidade pequena",
+            "Água": "1/2 xícara",
+            "Limão": "1 unidade",
+            "Manteiga": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto"
+        },
+        "receita": [
+            "Descasque e corte as bananas em rodelas de 1 cm, transfira para uma tigela, regue com o caldo do limão e reserve. Descasque e pique fino a cebola.",
+            "Leve uma panela média com a manteiga ao fogo baixo. Quando derreter, acrescente a cebola, tempere com uma pitada de sal e refogue por 2 minutos, até murchar.",
+            "Junte as bananas (com o caldo de limão) e misture bem.",
+            "Regue com a água, tempere com sal e pimenta, tampe e deixe cozinhar em fogo baixo por cerca de 5 minutos, mexendo de vez em quando, até as bananas ficarem bem macias.",
+            "Desligue o fogo e, com o mixer, bata as bananas na própria panela até formar um purê bem liso e cremoso – se preferir uma textura mais rústica, amasse as bananas com a colher de pau. Sirva a seguir."
+        ],
+        "categorias": [
+            "Guarnição"
+        ],
+        "image": "pure-banana-terra.jpg"
     },
     {
         "nome": "Batata Inglesa Sauté",
@@ -2320,7 +2273,9 @@
         "categorias": [
             "Fitness"
         ],
-        "tags":["Pré-treino"],
+        "tags": [
+            "Pré-treino"
+        ],
         "image": "smoothie_morango_beterraba.png"
     }
 ]
