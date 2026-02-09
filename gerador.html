@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Cardápio - Receitas em Harmonia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-light">
+    <div class="container main-container py-5">
+        <header class="mb-5 d-flex align-items-center gap-3">
+            <a href="index.html" class="btn btn-outline-dark rounded-pill">
+                ← Voltar
+            </a>
+            <h1 class="m-0 fw-bold">Seu Cardápio Aleatório</h1>
+        </header>
+
+        <div id="loading" class="text-center py-5">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p class="mt-3 text-muted">Combinando sabores...</p>
+        </div>
+
+        <div id="menu-grid" class="row g-4 d-none">
+            <!-- Cards will be injected here -->
+        </div>
+
+        <div class="text-center mt-5 d-none" id="actions">
+            <button class="btn btn-dark btn-lg rounded-pill px-5 shadow" onclick="generateMenu()">
+                🔄 Gerar Nova Combinação
+            </button>
+        </div>
+    </div>
+
+    <script>
+        let allRecipes = [];
+
+        async function init() {
+            try {
+                const response = await fetch('receitas.json');
+                if (!response.ok) throw new Error('Erro ao carregar receitas');
+                allRecipes = await response.json();
+                generateMenu();
+
+                document.getElementById('loading').classList.add('d-none');
+                document.getElementById('menu-grid').classList.remove('d-none');
+                document.getElementById('actions').classList.remove('d-none');
+            } catch (error) {
+                console.error(error);
+                document.getElementById('loading').innerHTML = `
+                    <div class="alert alert-danger">
+                        Não foi possível gerar o cardápio. Tente novamente mais tarde.
+                    </div>
+                `;
+            }
+        }
+
+        function getRandomRecipe(category) {
+            const filtered = allRecipes.filter(r => r.categorias && r.categorias.includes(category));
+            if (filtered.length === 0) return null;
+            const randomIndex = Math.floor(Math.random() * filtered.length);
+            return filtered[randomIndex];
+        }
+
+        function generateMenu() {
+            const main = getRandomRecipe('Prato Principal');
+            const side = getRandomRecipe('Guarnição');
+            const salad = getRandomRecipe('Salada');
+
+            const menu = [
+                { type: 'Prato Principal', icon: '🍖', data: main },
+                { type: 'Guarnição', icon: '🥘', data: side },
+                { type: 'Salada', icon: '🥗', data: salad }
+            ];
+
+            const grid = document.getElementById('menu-grid');
+            grid.innerHTML = '';
+
+            menu.forEach(item => {
+                if (!item.data) return; // Skip if no recipe found for category
+
+                const col = document.createElement('div');
+                col.className = 'col-md-4';
+                col.innerHTML = `
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden bento-card d-block text-start p-0">
+                         <div style="height: 200px; overflow: hidden; position: relative;">
+                            <img src="imagens/${item.data.image}" class="w-100 h-100 object-fit-cover" 
+                                 alt="${item.data.nome}" onerror="this.src='imagens/placeholder.jpg'">
+                            <div class="position-absolute top-0 start-0 m-3 badge bg-white text-dark shadow-sm">
+                                ${item.icon} ${item.type}
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h3 class="card-title h5 fw-bold mb-2">${item.data.nome}</h3>
+                            <p class="card-text text-muted small mb-3">
+                                ${item.data.porção} Porções • ${item.data.verificado ? 'Verificado ✔' : ''}
+                            </p>
+                            <button class="btn btn-outline-primary btn-sm rounded-pill stretched-link"
+                                    type="button">
+                                Ver Detalhes
+                            </button>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(col);
+
+                // Add event listener programmatically to avoid quote escaping issues
+                col.querySelector('button').addEventListener('click', () => showDetailModal(item.data));
+            });
+
+            // Add animation class
+            grid.classList.add('fade-in');
+            setTimeout(() => grid.classList.remove('fade-in'), 500);
+        }
+
+        function showDetailModal(recipe) {
+            // Create a simple modal on the fly
+            const modalId = 'recipeModal';
+            let modalEl = document.getElementById(modalId);
+            if (modalEl) {
+                modalEl.remove(); // specific remove to rebuild
+                /* Note: Bootstrap modal instance might linger, but removing DOM element helps cleanup simple cases. 
+                   Ideally use bootstrap.Modal.getInstance(modalEl).hide() if exists, but for this simple script: */
+            }
+
+            const ingredientsList = Object.entries(recipe.ingredientes)
+                .map(([k, v]) => `<li><b>${k}:</b> ${v}</li>`).join('');
+
+            const stepsList = recipe.receita
+                .map((step, idx) => `<li class="mb-2"><span class="badge bg-secondary me-2">${idx + 1}</span>${step}</li>`).join('');
+
+            const modalHtml = `
+                <div class="modal fade" id="${modalId}" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content rounded-4 border-0 shadow-lg">
+                            <div class="modal-header border-0 pb-0">
+                                <h5 class="modal-title fw-bold fs-4">${recipe.nome}</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body p-4">
+                                <div class="row g-4">
+                                    <div class="col-md-5">
+                                        <img src="imagens/${recipe.image}" class="img-fluid rounded-3 w-100 object-fit-cover shadow-sm" style="height:250px" onerror="this.src='imagens/placeholder.jpg'">
+                                        <div class="mt-3">
+                                            <span class="badge bg-light text-dark border">${recipe.porção} Porções</span>
+                                            ${recipe.verificado ? '<span class="badge bg-success-subtle text-success border border-success-subtle">Verificado</span>' : ''}
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <h6 class="fw-bold mb-2">🛒 Ingredientes:</h6>
+                                        <ul class="list-unstyled mb-4 small">
+                                            ${ingredientsList}
+                                        </ul>
+                                    </div>
+                                    <div class="col-12">
+                                        <h6 class="fw-bold mb-2">👨‍🍳 Modo de Preparo:</h6>
+                                        <ul class="list-unstyled small m-0">
+                                            ${stepsList}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            document.body.insertAdjacentHTML('beforeend', modalHtml);
+            const modal = new bootstrap.Modal(document.getElementById(modalId));
+            modal.show();
+        }
+
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
