@@ -1377,7 +1377,7 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "mandioca-amanteigada.jpg"
     },
     {
         "nome": "Repolho Refogado",
@@ -1401,7 +1401,7 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "repolho-refogado.webp"
     },
     {
         "nome": "Chuchu Refogado",
@@ -1425,7 +1425,7 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "chuchu-refogado.jpg"
     },
     {
         "nome": "Seleta de Legumes",
@@ -1451,7 +1451,7 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "seleta-legumes.jpg"
     },
     {
         "nome": "Creme de Milho",
@@ -1477,7 +1477,7 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "creme-milho.jpg"
     },
     {
         "nome": "Farofa Confete",
@@ -1506,7 +1506,7 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "farofa-de-confete.webp"
     },
     {
         "nome": "Purê de Batata Doce",
@@ -1551,7 +1551,7 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "batata-doce-rustica.jpg"
     },
     {
         "nome": "Batata Inglesa Cozida",
@@ -1573,7 +1573,7 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "batata-inglesa-cozida.webp"
     },
     {
         "nome": "Batata Inglesa Rústica",
@@ -1596,7 +1596,7 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "batata-inglesa-rustica.webp"
     },
     {
         "nome": "Batata Inglesa Gratinada",
@@ -1623,7 +1623,7 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "batata-inglesa-gratinada.jpg"
     },
     {
         "nome": "Purê de Abóbora Cabotiá",
@@ -1670,7 +1670,7 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "abobora-cabotia-refogada.webp"
     },
     {
         "nome": "Abobrinha Italiana Refogada",
@@ -1695,7 +1695,7 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "abobrinha-italiana-refogada.jpg"
     },
     {
         "nome": "Salada de Batata com Maionese",
@@ -1721,7 +1721,7 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "salada-batata-maionese.avif"
     },
     {
         "nome": "Couve Refogada com Bacon",
@@ -1745,7 +1745,7 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "couve-refogada-bacon.jpeg"
     },
     {
         "nome": "Purê de Mandioca",
@@ -2277,5 +2277,413 @@
             "Fitness"
         ],
         "image": "smoothie_morango_beterraba.png"
+    },
+    {
+        "nome": "Mix de Folhas Verdes",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Alface crespa": "1/2 pé",
+            "Alface americana": "1/2 pé",
+            "Rúcula": "1 maço pequeno",
+            "Agrião": "1 maço pequeno",
+            "Acelga": "2 folhas",
+            "Azeite": "2 colheres de sopa",
+            "Limão": "1 unidade",
+            "Sal": "a gosto"
+        },
+        "receita": [
+            "Lave e seque bem todas as folhas.",
+            "Rasgue as folhas maiores com as mãos.",
+            "Misture todas as folhas em uma saladeira.",
+            "Tempere com azeite, limão e sal.",
+            "Sirva imediatamente."
+        ],
+        "categorias": [
+            "Salada"
+        ],
+        "image": "mix-folhas-verdes.webp"
+    },
+    {
+        "nome": "Salada de Agrião com Tomate",
+        "verificado": false,
+        "porção": 2,
+        "ingredientes": {
+            "Agrião": "1 maço",
+            "Tomate": "2 unidades médias",
+            "Azeite": "1 colher de sopa",
+            "Vinagre": "1 colher de chá",
+            "Sal": "a gosto"
+        },
+        "receita": [
+            "Lave bem o agrião e retire os talos mais grossos.",
+            "Corte os tomates em rodelas ou cubos.",
+            "Misture o agrião e o tomate em uma tigela.",
+            "Tempere com azeite, vinagre e sal.",
+            "Sirva fresca."
+        ],
+        "categorias": [
+            "Salada"
+        ],
+        "image": "salada-agriao-tomate.jpg"
+    },
+    {
+        "nome": "Rúcula com Tomate Seco e Parmesão",
+        "verificado": false,
+        "porção": 3,
+        "ingredientes": {
+            "Rúcula": "1 maço",
+            "Tomate seco": "100 g",
+            "Queijo parmesão": "50 g",
+            "Azeite": "2 colheres de sopa",
+            "Sal": "a gosto"
+        },
+        "receita": [
+            "Lave e seque bem a rúcula.",
+            "Corte o tomate seco em tiras.",
+            "Disponha a rúcula em um prato.",
+            "Adicione o tomate seco e lascas de parmesão.",
+            "Regue com azeite e ajuste o sal."
+        ],
+        "categorias": [
+            "Salada"
+        ],
+        "image": "salada-rucula-tomate-seco.webp"
+    },
+    {
+        "nome": "Salada de Espinafre com Maçã",
+        "verificado": false,
+        "porção": 2,
+        "ingredientes": {
+            "Espinafre": "1 maço",
+            "Maçã": "1 unidade grande",
+            "Azeite": "1 colher de sopa",
+            "Limão": "1/2 unidade",
+            "Sal": "a gosto"
+        },
+        "receita": [
+            "Lave bem o espinafre e seque.",
+            "Corte a maçã em fatias finas.",
+            "Misture o espinafre e a maçã.",
+            "Tempere com azeite, limão e sal.",
+            "Sirva imediatamente."
+        ],
+        "categorias": [
+            "Salada"
+        ],
+        "image": "salada-espinafre-maca.jpg"
+    },
+    {
+        "nome": "Salada Caprese",
+        "verificado": false,
+        "porção": 3,
+        "ingredientes": {
+            "Tomate": "3 unidades médias",
+            "Muçarela de búfala": "200 g",
+            "Manjericão fresco": "a gosto",
+            "Azeite": "2 colheres de sopa",
+            "Sal": "a gosto"
+        },
+        "receita": [
+            "Corte os tomates em rodelas.",
+            "Corte a muçarela em fatias.",
+            "Intercale tomate e muçarela em um prato.",
+            "Finalize com folhas de manjericão.",
+            "Tempere com azeite e sal."
+        ],
+        "categorias": [
+            "Salada"
+        ],
+        "image": "salada-caprese.webp"
+    },
+    {
+        "nome": "Salada Grega",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Pepino": "1 unidade grande",
+            "Tomate": "3 unidades médias",
+            "Cebola roxa": "1/2 unidade",
+            "Azeitona preta": "100 g",
+            "Queijo feta": "150 g",
+            "Azeite": "3 colheres de sopa",
+            "Orégano": "a gosto"
+        },
+        "receita": [
+            "Corte o pepino e o tomate em cubos.",
+            "Fatie a cebola roxa finamente.",
+            "Misture todos os ingredientes em uma tigela.",
+            "Adicione o queijo feta em cubos.",
+            "Tempere com azeite e orégano."
+        ],
+        "categorias": [
+            "Salada"
+        ],
+        "image": "salada-grega.avif"
+    },
+    {
+        "nome": "Coleslaw (Salada de Repolho)",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Repolho branco": "1/2 unidade média",
+            "Cenoura": "1 unidade média",
+            "Maionese": "3 colheres de sopa",
+            "Limão": "1 colher de sopa",
+            "Sal": "a gosto"
+        },
+        "receita": [
+            "Fatie o repolho bem fino.",
+            "Rale a cenoura.",
+            "Misture o repolho e a cenoura.",
+            "Adicione maionese, limão e sal.",
+            "Misture bem antes de servir."
+        ],
+        "categorias": [
+            "Salada"
+        ],
+        "image": "salada-repolho.jpg"
+    },
+    {
+        "nome": "Salada Tropical com Frutas",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Mix de folhas": "1 prato fundo",
+            "Manga": "1 unidade média",
+            "Abacaxi": "2 fatias",
+            "Cenoura": "1 unidade pequena",
+            "Castanhas": "50 g",
+            "Azeite": "2 colheres de sopa",
+            "Limão": "1 unidade"
+        },
+        "receita": [
+            "Lave e seque as folhas.",
+            "Corte as frutas em cubos.",
+            "Rale a cenoura.",
+            "Misture todos os ingredientes em uma saladeira.",
+            "Tempere com azeite e limão."
+        ],
+        "categorias": [
+            "Salada"
+        ],
+        "image": "salada-tropical.jpg"
+    },
+    {
+        "nome": "Atum Xadrez",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Amido de milho": "1 colher de sopa",
+            "Água": "Meia xícara de chá",
+            "Molho de soja tipo shoyu": "1/4 xícara de chá",
+            "Filés de Atum em Azeite Gomes da Costa": "2 latas",
+            "Cebolas": "2 unidades cortadas em cubos médios",
+            "Pimentão vermelho": "1 unidade sem sementes, cortado em cubos médios",
+            "Pimentão verde": "1 unidade sem sementes, cortado em cubos médios",
+            "Pimentão amarelo": "1 unidade sem sementes, cortado em cubos médios",
+            "Champignons Gomes da Costa": "Meia xícara de chá fatiados",
+            "Sal": "a gosto",
+            "Amendoim torrado": "2 colheres de sopa"
+        },
+        "receita": [
+            "Dissolva o amido na água e no molho de soja e reserve.",
+            "Aqueça o azeite do atum em uma panela e refogue a cebola até murchar.",
+            "Adicione os pimentões e refogue em fogo baixo até ficarem al dente.",
+            "Junte os champignons e o amido dissolvido, mexendo até encorpar.",
+            "Acrescente os filés de atum cortados ao meio e tempere com sal se necessário.",
+            "Transfira para uma travessa e finalize com os amendoins por cima."
+        ],
+        "categorias": [
+            "Prato Principal"
+        ],
+        "image": "atum-xadrez.jpg"
+    },
+    {
+        "nome": "Tortilla de Airfryer com Atum",
+        "verificado": true,
+        "porção": 4,
+        "ingredientes": {
+            "Atum em Pedaços ao Natural Gomes da Costa": "2 latas",
+            "Tomate cereja": "1/2 xícara de chá",
+            "Queijo prato ralado": "1 xícara de chá",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto",
+            "Cebolinha picada": "a gosto",
+            "Tortilhas": "4 unidades",
+            "Ovo batido": "1 unidade",
+            "Parmesão ralado": "1/2 xícara de chá"
+        },
+        "receita": [
+            "Drene o atum e misture em um bowl com o tomate, o queijo prato, sal e pimenta.",
+            "Finalize o recheio com cebolinha e reserve.",
+            "Dobre as tortilhas duas vezes ao meio para marcar o centro e faça um corte em uma das marcas.",
+            "Coloque o recheio em um quarto da tortilha e dobre em formato de triângulo.",
+            "Repita o processo com todas as tortilhas.",
+            "Pincele o ovo batido no topo e polvilhe o parmesão.",
+            "Asse na airfryer pré-aquecida a 180°C por 10 minutos ou até dourar.",
+            "Sirva em seguida."
+        ],
+        "categorias": [
+            "Lanche"
+        ],
+        "image": "tortilla-de-arfryer-atum.jpg"
+    },
+    {
+        "nome": "Batata Rosti com Atum",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Batatas grandes": "4 unidades",
+            "Atum Sólido ao natural Gomes da Costa": "2 latas",
+            "Manteiga derretida": "4 colheres de sopa",
+            "Salsinha fresca picada": "2 colheres de sopa",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto",
+            "Baby alfaces de duas cores": "a gosto",
+            "Cebola roxa fatiada": "a gosto",
+            "Creme azedo": "para servir"
+        },
+        "receita": [
+            "Drene o líquido do atum e reserve.",
+            "Descasque e rale as batatas no ralo grosso, espremendo em uma peneira para tirar o excesso de líquido.",
+            "Em um bowl, misture a batata com manteiga, salsinha, sal e pimenta.",
+            "Aqueça óleo em uma frigideira e espalhe uma camada fina da batata, pressionando para compactar.",
+            "Cozinhe por cerca de 5 a 7 minutos de cada lado até dourar e ficar crocante.",
+            "Coloque a batata em um prato, cubra com creme azedo, o atum e salsinha.",
+            "Sirva acompanhado de alface e cebola roxa."
+        ],
+        "categorias": [
+            "Lanche"
+        ],
+        "image": "batata-rosti-atum.jpg"
+    },
+    {
+        "nome": "Sanduíche de Atum, Mussarela, Tomate e Catupiry",
+        "verificado": false,
+        "porção": 1,
+        "ingredientes": {
+            "Pão de forma integral sem casca": "2 fatias",
+            "Margarina": "para untar",
+            "Requeijão tipo Catupiry": "1 colher de sopa",
+            "Atum em Pedaços em Óleo Gomes da Costa": "2 colheres de sopa",
+            "Queijo mussarela": "2 fatias",
+            "Tomate": "2 rodelas médias",
+            "Orégano": "a gosto"
+        },
+        "receita": [
+            "Pincele margarina em um lado da fatia de pão e coloque virada para o tostex.",
+            "Espalhe o requeijão no pão e cubra com o atum.",
+            "Adicione o tomate, o queijo dobrado e o orégano.",
+            "Feche o sanduíche e pincele margarina na parte de cima.",
+            "Toste em fogo baixo por cerca de 1 minuto e meio de cada lado ou na tostadeira até dourar.",
+            "Sirva imediatamente."
+        ],
+        "categorias": [
+            "Lanche"
+        ],
+        "image": "sanduiche-de-atum-mussarela-tomate-e-catupiry.jpg"
+    },
+    {
+        "nome": "Patê de Atum",
+        "verificado": true,
+        "porção": 3,
+        "ingredientes": {
+            "Atum em Pedaços em Óleo Gomes da Costa": "1 lata",
+            "Cebola pequena ralada": "1 unidade",
+            "Cenoura pequena ralada": "1 unidade",
+            "Azeitonas verdes picadas": "1 colher de sopa",
+            "Salsinha picada": "1 colher de sopa",
+            "Maionese": "1 xícara de chá",
+            "Sal": "a gosto",
+            "Requeijão": "1 colher de sopa"
+        },
+        "receita": [
+            "Em uma tigela, combine o atum, a cenoura, a azeitona, a salsinha, o requeijão e a maionese.",
+            "Misture bem após cada adição.",
+            "Tempere com sal a gosto.",
+            "Finalize com mais salsinha e mantenha na geladeira até servir."
+        ],
+        "categorias": [
+            "Lanche"
+        ],
+        "image": "pate-de-atum.png"
+    },
+    {
+        "nome": "Omelete de Atum",
+        "verificado": false,
+        "porção": 2,
+        "ingredientes": {
+            "Ovos": "2 unidades",
+            "Atum Sólido em Óleo": "1/2 lata",
+            "Sal": "a gosto",
+            "Azeite": "a gosto",
+            "Salsinha picada": "1 colher de chá"
+        },
+        "receita": [
+            "Bata os ovos com sal em uma tigela.",
+            "Adicione o atum e misture bem.",
+            "Aqueça o azeite em uma frigideira e despeje a mistura.",
+            "Cozinhe até dourar de um lado, depois vire.",
+            "Retire quando estiver cozido e sirva com salada."
+        ],
+        "categorias": [
+            "Lanche"
+        ],
+        "image": "omelete-de-atum.png"
+    },
+    {
+        "nome": "Bruschettas",
+        "verificado": false,
+        "porção": 16,
+        "ingredientes": {
+            "Pão italiano": "1 bengala cortada em fatias de 1cm",
+            "Alho": "2 a 3 dentes cortados ao meio",
+            "Atum Sólido em Óleo Gomes da Costa": "2 latas",
+            "Tomates maduros": "4 a 5 unidades cortados em cubos",
+            "Manjericão fresco": "a gosto"
+        },
+        "receita": [
+            "Esfregue o alho nas fatias de pão e coloque-as em uma assadeira.",
+            "Regue com um pouco do óleo do atum e leve ao forno médio pré-aquecido até ficarem crocantes.",
+            "Misture os tomates com o manjericão, o restante do óleo e o atum em uma tigela.",
+            "Distribua a mistura sobre as fatias de pão torradas.",
+            "Sirva em seguida."
+        ],
+        "categorias": [
+            "Lanche"
+        ],
+        "image": "bruschettas-atum.jpg"
+    },
+    {
+        "nome": "Ceviche de Atum",
+        "verificado": false,
+        "porção": 8,
+        "ingredientes": {
+            "Caldo de legumes": "1/4 xícara de chá",
+            "Suco de limão": "3 e meia colheres de sopa",
+            "Cebola": "Meia unidade pequena",
+            "Alho": "2 dentes pequenos",
+            "Salsão": "1 talo pequeno",
+            "Gengibre fresco": "1 pedaço de 1cm",
+            "Pimenta dedo de moça": "2 unidades sem sementes",
+            "Coentro": "6 raminhos e 3 colheres de sopa picado",
+            "Sal": "a gosto",
+            "Cebola roxa": "1 unidade grande",
+            "Azeite": "1 e meia colher de sopa",
+            "Atum Claro ao Natural Gomes da Costa": "2 latas"
+        },
+        "receita": [
+            "Bata no liquidificador o caldo, suco de limão, cebola, alho, salsão e gengibre até ficar homogêneo.",
+            "Adicione parte da pimenta e o coentro em ramos, batendo rapidamente apenas para picar.",
+            "Corte a cebola roxa em fatias finas e deixe de molho em água por 30 minutos.",
+            "Em uma tigela, misture o suco de limão restante, coentro picado, pimenta picada, azeite e a cebola escorrida.",
+            "Para montar, coloque em copos pequenos camadas de ceviche, atum e o leite de tigre batido.",
+            "Sirva imediatamente."
+        ],
+        "categorias": [
+            "Lanche"
+        ],
+        "image": "ceviche-de-atum.jpg"
     }
 ]

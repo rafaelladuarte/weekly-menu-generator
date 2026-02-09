@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receitas em Harmonia</title>
+    <link rel="icon" href="imagens/favicon.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -20,52 +21,70 @@
         <!-- Discovery Hub (Bento Grid) -->
         <h1 class="visually-hidden">Hub de Receitas</h1>
         <div class="discovery-hub mb-5">
-            <!-- Search Card (Large) -->
-            <div class="bento-card search-card p-4 d-flex flex-column justify-content-center">
+            <!-- Row 1: Search Card (Full Width) -->
+            <div class="bento-card search-card">
                 <h2 class="mb-3 fw-bold text-white">Descubra Sabores</h2>
-                <div class="search-wrapper">
-                    <input type="text" id="search" class="form-control search-input"
-                        placeholder="O que vamos cozinhar hoje?" onkeyup="handleSearch()">
-                    <span class="search-icon">🔍</span>
+                <div class="search-container w-100">
+                    <div class="search-wrapper">
+                        <input type="text" id="search" class="form-control search-input"
+                            placeholder="O que vamos cozinhar hoje?" onkeyup="handleSearch()">
+                        <span class="search-icon">🔍</span>
+                    </div>
+                    <button class="btn-generate" onclick="window.location.href='gerador.html'">
+                        <span class="btn-icon">🎲</span>
+                        <span class="btn-text">Gerar Cardápio</span>
+                    </button>
                 </div>
             </div>
 
-            <!-- Categories -->
-            <!-- Using custom data-attribute for hue to colorize dynamically in CSS or inline -->
-            <div class="bento-card category-card active" onclick="selectCategory('all', this)" style="--hue: 220;">
-                <span class="cat-icon">🍽️</span>
-                <span class="cat-name">Todos</span>
+            <!-- Row 2: Primary Filters -->
+            <div class="filters-primary">
+                <!-- Prato Principal -->
+                <div class="bento-card category-card" onclick="selectCategory('Prato Principal', this)"
+                    style="--hue: 350;">
+                    <span class="cat-icon">🍖</span>
+                    <span class="cat-name">Prato Principal</span>
+                </div>
+
+                <!-- Guarnição -->
+                <div class="bento-card category-card" onclick="selectCategory('Guarnição', this)" style="--hue: 280;">
+                    <span class="cat-icon">🥘</span>
+                    <span class="cat-name">Guarnição</span>
+                </div>
+
+                <!-- Saladas -->
+                <div class="bento-card category-card" onclick="selectCategory('Salada', this)" style="--hue: 150;">
+                    <span class="cat-icon">🥗</span>
+                    <span class="cat-name">Salada</span>
+                </div>
+
+                <!-- Lanches -->
+                <div class="bento-card category-card" onclick="selectCategory('Lanches', this)" style="--hue: 45;">
+                    <span class="cat-icon">🥪</span>
+                    <span class="cat-name">Lanches</span>
+                </div>
+
+                <!-- Quitandas -->
+                <div class="bento-card category-card" onclick="selectCategory('Quitandas', this)" style="--hue: 35;">
+                    <span class="cat-icon">🍞</span>
+                    <span class="cat-name">Quitandas</span>
+                </div>
             </div>
 
-            <div class="bento-card category-card" onclick="selectCategory('Quitandas', this)" style="--hue: 35;">
-                <span class="cat-icon">🍞</span>
-                <span class="cat-name">Quitandas</span>
-            </div>
+            <!-- Row 3: Secondary Filters -->
+            <div class="filters-secondary">
+                <!-- Todos -->
+                <div class="bento-card category-card active" onclick="selectCategory('all', this)" style="--hue: 220;">
+                    <span class="cat-icon">🍽️</span>
+                    <span class="cat-name">Todos</span>
+                </div>
 
-            <div class="bento-card category-card" onclick="selectCategory('Prato Principal', this)" style="--hue: 350;">
-                <span class="cat-icon">🍖</span>
-                <span class="cat-name">Prato Principal</span>
-            </div>
-
-            <div class="bento-card category-card" onclick="selectCategory('Guarnição', this)" style="--hue: 280;">
-                <span class="cat-icon">🥘</span>
-                <span class="cat-name">Guarnição</span>
-            </div>
-
-            <div class="bento-card category-card" onclick="selectCategory('Saladas', this)" style="--hue: 150;">
-                <span class="cat-icon">🥗</span>
-                <span class="cat-name">Saladas</span>
-            </div>
-
-            <div class="bento-card category-card" onclick="selectCategory('Lanches', this)" style="--hue: 45;">
-                <span class="cat-icon">🥪</span>
-                <span class="cat-name">Lanches</span>
-            </div>
-
-            <!-- Verified Toggle -->
-            <div class="bento-card category-card" id="verified-card" onclick="toggleVerified(this)" style="--hue: 190;">
-                <span class="cat-icon">✔</span>
-                <span class="cat-name">Verificados</span>
+                <!-- Verified Toggle -->
+                <div class="bento-card category-card" id="verified-card" onclick="toggleVerified(this)"
+                    style="--hue: 190;">
+                    <span class="cat-icon">✔</span>
+                    <span class="cat-name">Verificados</span>
+                </div>
             </div>
         </div>
 
