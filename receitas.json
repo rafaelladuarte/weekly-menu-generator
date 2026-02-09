@@ -35,7 +35,7 @@
             "Misture levemente e sirva."
         ],
         "categorias": [
-            "Café da Manhã"
+            "Lanches"
         ],
         "image": "iogurte_banana.jpg"
     },
@@ -53,10 +53,10 @@
             "Sirva imediatamente."
         ],
         "categorias": [
-            "Fitness"
+            "Lanches"
         ],
         "tags": [
-            "Pré-treino"
+            "Fitness"
         ],
         "image": "pao_forma_doce_leite.png"
     },
@@ -76,10 +76,10 @@
             "Regue com mel e sirva."
         ],
         "categorias": [
-            "Fitness"
+            "Lanches"
         ],
         "tags": [
-            "Pré-treino"
+            "Fitness"
         ],
         "image": "banana_granola_mel.png"
     },
@@ -98,7 +98,7 @@
             "Sirva a tapioca."
         ],
         "categorias": [
-            "Café da Manhã"
+            "Lanches"
         ],
         "image": "tapioca_frango_desfiado.png"
     },
@@ -118,7 +118,7 @@
             "Tempere com sal a gosto."
         ],
         "categorias": [
-            "Café da Manhã"
+            "Lanches"
         ],
         "image": "cuscuz_ovo.png"
     },
@@ -136,7 +136,7 @@
             "Sirva imediatamente."
         ],
         "categorias": [
-            "Café da Manhã"
+            "Lanches"
         ],
         "image": "torrada_ricota.png"
     },
@@ -202,7 +202,7 @@
             "Coloque os ovos mexidos sobre o pão e sirva imediatamente"
         ],
         "categorias": [
-            "Café da Manhã"
+            "Lanches"
         ],
         "image": "pao_frances_ovo_mexido.jpg"
     },
@@ -337,7 +337,7 @@
         ],
         "categorias": [
             "Lanches",
-            "Café da Manhã"
+            "Lanches"
         ],
         "image": "crepioca_requeijao_peru.png"
     },
@@ -1354,7 +1354,7 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "macarrao-primavera.jpg"
     },
     {
         "nome": "Mandioca Amanteigada",
@@ -1964,7 +1964,7 @@
     },
     {
         "nome": "Caponata de Berinjela",
-        "verificado": false,
+        "verificado": true,
         "porção": 6,
         "ingredientes": {
             "Berinjela": "2 unidades",
@@ -1988,7 +1988,7 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "image": "caponata-berinjela.webp"
     },
     {
         "nome": "Batata Frita",
@@ -2271,10 +2271,10 @@
             "Beterraba em pó": "5g"
         },
         "categorias": [
-            "Fitness"
+            "Lanches"
         ],
         "tags": [
-            "Pré-treino"
+            "Fitness"
         ],
         "image": "smoothie_morango_beterraba.png"
     }
