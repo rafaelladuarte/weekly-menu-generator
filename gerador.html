@@ -4,179 +4,229 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de Cardápio - Receitas em Harmonia</title>
+    <title>Cardápio da semana - Receitas em Harmonia</title>
+    <link rel="icon" href="imagens/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="imagens/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="imagens/apple-touch-icon.png">
+    <meta name="theme-color" content="#2B311B">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="bg-light">
-    <div class="container main-container py-5">
-        <header class="mb-5 d-flex align-items-center gap-3">
-            <a href="index.html" class="btn btn-outline-dark rounded-pill">
-                ← Voltar
-            </a>
-            <h1 class="m-0 fw-bold">Seu Cardápio Aleatório</h1>
-        </header>
+<body>
+    <header class="site-header">
+        <div class="inner">
+            <a class="brand" href="index.html">Receitas em Harmonia</a>
+            <nav class="site-nav" aria-label="Principal">
+                <a href="index.html">Receitas</a>
+                <a href="gerador.html" aria-current="page">Cardápio da semana</a>
+                <a href="estacoes.html">Estações</a>
+            </nav>
+        </div>
+    </header>
 
-        <div id="loading" class="text-center py-5">
-            <div class="spinner-border text-primary" role="status">
-                <span class="visually-hidden">Loading...</span>
+    <div class="wrap">
+        <main>
+            <h1 class="page-title">Cardápio da semana</h1>
+
+            <div class="toolbar">
+                <div>
+                    <label for="tag-pref">Preferir receitas</label>
+                    <select id="tag-pref">
+                        <option value="">Sem preferência</option>
+                        <option>Rico em proteína</option>
+                        <option>Rico em fibras</option>
+                        <option>Baixo carboidrato</option>
+                        <option>Leve</option>
+                        <option>Textura macia</option>
+                        <option>Pós-treino</option>
+                        <option>Pré-treino</option>
+                        <option value="__estacao">Da estação</option>
+                    </select>
+                </div>
+                <button class="btn-solid" type="button" onclick="regenerateAll()">Gerar nova semana</button>
             </div>
-            <p class="mt-3 text-muted">Combinando sabores...</p>
-        </div>
 
-        <div id="menu-grid" class="row g-4 d-none">
-            <!-- Cards will be injected here -->
-        </div>
+            <p class="hint">
+                Troque um item com "Trocar" ou mantenha-o com "Fixar". Itens fixados permanecem quando você gera uma
+                nova semana, e nenhuma receita se repete. A preferência vale a partir da próxima geração ou troca.
+            </p>
 
-        <div class="text-center mt-5 d-none" id="actions">
-            <button class="btn btn-dark btn-lg rounded-pill px-5 shadow" onclick="generateMenu()">
-                🔄 Gerar Nova Combinação
-            </button>
-        </div>
+            <div id="loading" class="py-5 text-secondary">Montando o cardápio...</div>
+
+            <div id="menu-grid" class="week-grid d-none"></div>
+
+            <div class="mt-4 d-none" id="actions">
+                <button class="btn-text" type="button" onclick="unlockAll()">Soltar todos os itens fixados</button>
+            </div>
+        </main>
     </div>
 
+    <script src="app.js"></script>
     <script>
-        let allRecipes = [];
+        const { esc, photoHTML } = App;
+        const STORAGE_KEY = 'menu-semanal-v1';
+        const PREF_KEY = 'menu-semanal-tag';
+        const DAYS = ['Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado', 'Domingo'];
+        const SLOTS = [
+            { key: 'main', cat: 'Prato Principal', label: 'Prato principal' },
+            { key: 'side', cat: 'Guarnição', label: 'Guarnição' },
+            { key: 'salad', cat: 'Salada', label: 'Salada' }
+        ];
+
+        let recipes = [];
+        let menu = []; // [{main:{nome,locked}, side:{...}, salad:{...}}] x 7
+
+        function save() {
+            try { localStorage.setItem(STORAGE_KEY, JSON.stringify(menu)); } catch (e) { /* storage indisponível */ }
+        }
+
+        function load() {
+            try {
+                const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+                if (Array.isArray(saved) && saved.length === DAYS.length) return saved;
+            } catch (e) { /* ignora */ }
+            return null;
+        }
+
+        const findRecipe = nome => recipes.find(r => r.nome === nome);
+
+        function usedNames() {
+            return new Set(menu.flatMap(day => SLOTS.map(s => day[s.key]?.nome)).filter(Boolean));
+        }
+
+        // Sorteia uma receita da categoria evitando as já usadas na semana.
+        function pick(cat, used, current) {
+            let pool = recipes.filter(r => r.categorias.includes(cat));
+            // Preferência por tag: usa só as receitas com a tag; se não houver nenhuma na categoria, ignora a preferência.
+            const pref = document.getElementById('tag-pref').value;
+            if (pref) {
+                const month = new Date().getMonth();
+                const preferred = pref === '__estacao'
+                    ? pool.filter(r => App.foodsInSeason(r, month).length > 0)
+                    : pool.filter(r => (r.tags || []).includes(pref));
+                if (preferred.length) pool = preferred;
+            }
+            let candidates = pool.filter(r => !used.has(r.nome));
+            if (candidates.length === 0) candidates = pool.filter(r => r.nome !== current); // pouca variedade: permite repetir
+            if (candidates.length === 0) candidates = pool;
+            return candidates.length ? candidates[Math.floor(Math.random() * candidates.length)] : null;
+        }
+
+        function regenerateAll() {
+            // Mantém apenas itens fixados e válidos; o resto é sorteado de novo.
+            menu = DAYS.map((_, d) => {
+                const day = {};
+                SLOTS.forEach(s => {
+                    const cur = menu[d]?.[s.key];
+                    if (cur?.locked && findRecipe(cur.nome)) day[s.key] = cur;
+                });
+                return day;
+            });
+            const used = usedNames();
+            // Ordem aleatória dos dias evita que os primeiros dias fiquem sempre com as melhores opções.
+            App.shuffle([...menu.keys()]).forEach(d => {
+                SLOTS.forEach(s => {
+                    if (menu[d][s.key]) return;
+                    const r = pick(s.cat, used);
+                    if (r) { menu[d][s.key] = { nome: r.nome, locked: false }; used.add(r.nome); }
+                });
+            });
+            save();
+            render();
+        }
+
+        function swap(d, key) {
+            const slot = SLOTS.find(s => s.key === key);
+            const cur = menu[d][key];
+            const r = pick(slot.cat, usedNames(), cur?.nome);
+            if (!r) return;
+            menu[d][key] = { nome: r.nome, locked: false };
+            save();
+            render();
+        }
+
+        function toggleLock(d, key) {
+            const cur = menu[d][key];
+            if (!cur) return;
+            cur.locked = !cur.locked;
+            save();
+            render();
+        }
+
+        function unlockAll() {
+            menu.forEach(day => SLOTS.forEach(s => { if (day[s.key]) day[s.key].locked = false; }));
+            save();
+            render();
+        }
+
+        function render() {
+            const grid = document.getElementById('menu-grid');
+            grid.innerHTML = DAYS.map((dayName, d) => `
+                <section class="day" aria-label="${dayName}">
+                    <h2>${dayName}</h2>
+                    ${SLOTS.map(s => slotHTML(d, s)).join('')}
+                </section>`).join('');
+
+            grid.querySelectorAll('[data-act]').forEach(btn => {
+                const d = +btn.dataset.day, key = btn.dataset.slot;
+                btn.addEventListener('click', () => {
+                    if (btn.dataset.act === 'swap') swap(d, key);
+                    else if (btn.dataset.act === 'lock') toggleLock(d, key);
+                    else if (btn.dataset.act === 'open') App.showRecipeModal(findRecipe(menu[d][key].nome));
+                });
+            });
+        }
+
+        function slotHTML(d, s) {
+            const item = menu[d][s.key];
+            const r = item && findRecipe(item.nome);
+            if (!r) return `<div class="slot"><span class="slot-cat">${s.label}</span><span class="text-secondary">Sem receita nesta categoria</span></div>`;
+            const locked = item.locked;
+            return `
+                <div class="slot">
+                    ${photoHTML(r)}
+                    <div>
+                        <div class="slot-cat">${s.label}</div>
+                        <button type="button" class="slot-name" data-act="open" data-day="${d}" data-slot="${s.key}">${esc(r.nome)}</button>
+                    </div>
+                    <div class="slot-actions">
+                        <button type="button" data-act="lock" data-day="${d}" data-slot="${s.key}" aria-pressed="${locked}"
+                                aria-label="${locked ? 'Soltar' : 'Fixar'} ${esc(r.nome)}">${locked ? 'Fixado' : 'Fixar'}</button>
+                        <button type="button" data-act="swap" data-day="${d}" data-slot="${s.key}"
+                                aria-label="Trocar ${esc(r.nome)}">Trocar</button>
+                    </div>
+                </div>`;
+        }
 
         async function init() {
             try {
-                const response = await fetch('receitas.json');
-                if (!response.ok) throw new Error('Erro ao carregar receitas');
-                allRecipes = await response.json();
-                generateMenu();
-
+                recipes = await App.loadRecipes();
+                try { await App.loadSeasonal(); } catch (e) { console.error('Sazonalidade indisponível', e); }
+                const prefEl = document.getElementById('tag-pref');
+                try { prefEl.value = localStorage.getItem(PREF_KEY) || ''; } catch (e) { /* ignora */ }
+                prefEl.addEventListener('change', () => {
+                    try { localStorage.setItem(PREF_KEY, prefEl.value); } catch (e) { /* ignora */ }
+                });
+                const saved = load();
+                if (saved) { menu = saved; } else { menu = DAYS.map(() => ({})); regenerateAll(); }
+                // Receitas removidas do JSON são sorteadas de novo
+                if (menu.some(day => SLOTS.some(s => !day[s.key] || !findRecipe(day[s.key].nome)))) {
+                    menu.forEach(day => SLOTS.forEach(s => { if (day[s.key] && !findRecipe(day[s.key].nome)) delete day[s.key]; }));
+                    regenerateAll();
+                } else {
+                    render();
+                }
                 document.getElementById('loading').classList.add('d-none');
                 document.getElementById('menu-grid').classList.remove('d-none');
                 document.getElementById('actions').classList.remove('d-none');
             } catch (error) {
                 console.error(error);
-                document.getElementById('loading').innerHTML = `
-                    <div class="alert alert-danger">
-                        Não foi possível gerar o cardápio. Tente novamente mais tarde.
-                    </div>
-                `;
+                document.getElementById('loading').textContent = 'Não foi possível carregar as receitas. Se abriu o arquivo direto do disco, use um servidor local (por exemplo, python3 -m http.server).';
             }
-        }
-
-        function getRandomRecipe(category) {
-            const filtered = allRecipes.filter(r => r.categorias && r.categorias.includes(category));
-            if (filtered.length === 0) return null;
-            const randomIndex = Math.floor(Math.random() * filtered.length);
-            return filtered[randomIndex];
-        }
-
-        function generateMenu() {
-            const main = getRandomRecipe('Prato Principal');
-            const side = getRandomRecipe('Guarnição');
-            const salad = getRandomRecipe('Salada');
-
-            const menu = [
-                { type: 'Prato Principal', icon: '🍖', data: main },
-                { type: 'Guarnição', icon: '🥘', data: side },
-                { type: 'Salada', icon: '🥗', data: salad }
-            ];
-
-            const grid = document.getElementById('menu-grid');
-            grid.innerHTML = '';
-
-            menu.forEach(item => {
-                if (!item.data) return; // Skip if no recipe found for category
-
-                const col = document.createElement('div');
-                col.className = 'col-md-4';
-                col.innerHTML = `
-                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden bento-card d-block text-start p-0">
-                         <div style="height: 200px; overflow: hidden; position: relative;">
-                            <img src="imagens/${item.data.image}" class="w-100 h-100 object-fit-cover" 
-                                 alt="${item.data.nome}" onerror="this.src='imagens/placeholder.jpg'">
-                            <div class="position-absolute top-0 start-0 m-3 badge bg-white text-dark shadow-sm">
-                                ${item.icon} ${item.type}
-                            </div>
-                        </div>
-                        <div class="card-body p-4">
-                            <h3 class="card-title h5 fw-bold mb-2">${item.data.nome}</h3>
-                            <p class="card-text text-muted small mb-3">
-                                ${item.data.porção} Porções • ${item.data.verificado ? 'Verificado ✔' : ''}
-                            </p>
-                            <button class="btn btn-outline-primary btn-sm rounded-pill stretched-link"
-                                    type="button">
-                                Ver Detalhes
-                            </button>
-                        </div>
-                    </div>
-                `;
-                grid.appendChild(col);
-
-                // Add event listener programmatically to avoid quote escaping issues
-                col.querySelector('button').addEventListener('click', () => showDetailModal(item.data));
-            });
-
-            // Add animation class
-            grid.classList.add('fade-in');
-            setTimeout(() => grid.classList.remove('fade-in'), 500);
-        }
-
-        function showDetailModal(recipe) {
-            // Create a simple modal on the fly
-            const modalId = 'recipeModal';
-            let modalEl = document.getElementById(modalId);
-            if (modalEl) {
-                modalEl.remove(); // specific remove to rebuild
-                /* Note: Bootstrap modal instance might linger, but removing DOM element helps cleanup simple cases. 
-                   Ideally use bootstrap.Modal.getInstance(modalEl).hide() if exists, but for this simple script: */
-            }
-
-            const ingredientsList = Object.entries(recipe.ingredientes)
-                .map(([k, v]) => `<li><b>${k}:</b> ${v}</li>`).join('');
-
-            const stepsList = recipe.receita
-                .map((step, idx) => `<li class="mb-2"><span class="badge bg-secondary me-2">${idx + 1}</span>${step}</li>`).join('');
-
-            const modalHtml = `
-                <div class="modal fade" id="${modalId}" tabindex="-1" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                        <div class="modal-content rounded-4 border-0 shadow-lg">
-                            <div class="modal-header border-0 pb-0">
-                                <h5 class="modal-title fw-bold fs-4">${recipe.nome}</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body p-4">
-                                <div class="row g-4">
-                                    <div class="col-md-5">
-                                        <img src="imagens/${recipe.image}" class="img-fluid rounded-3 w-100 object-fit-cover shadow-sm" style="height:250px" onerror="this.src='imagens/placeholder.jpg'">
-                                        <div class="mt-3">
-                                            <span class="badge bg-light text-dark border">${recipe.porção} Porções</span>
-                                            ${recipe.verificado ? '<span class="badge bg-success-subtle text-success border border-success-subtle">Verificado</span>' : ''}
-                                        </div>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <h6 class="fw-bold mb-2">🛒 Ingredientes:</h6>
-                                        <ul class="list-unstyled mb-4 small">
-                                            ${ingredientsList}
-                                        </ul>
-                                    </div>
-                                    <div class="col-12">
-                                        <h6 class="fw-bold mb-2">👨‍🍳 Modo de Preparo:</h6>
-                                        <ul class="list-unstyled small m-0">
-                                            ${stepsList}
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            `;
-
-            document.body.insertAdjacentHTML('beforeend', modalHtml);
-            const modal = new bootstrap.Modal(document.getElementById(modalId));
-            modal.show();
         }
 
         document.addEventListener('DOMContentLoaded', init);

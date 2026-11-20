@@ -1,0 +1,3 @@
+# Receitas sem foto - cole a URL da imagem depois de '|' em cada linha
+# Formato: Nome da receita | URL
+

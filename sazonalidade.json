@@ -1,0 +1,2252 @@
+{
+ "meta": {
+  "regiao": "Sudeste (referência: entradas no ETSP/CEAGESP, São Paulo)",
+  "legenda": {
+   "2": "Alta oferta (acima da média)",
+   "1": "Oferta média",
+   "0": "Baixa oferta"
+  },
+  "fontes": [
+   {
+    "nome": "CEAGESP - Sazonalidade dos produtos comercializados no ETSP, dados 2019-2023",
+    "url": "https://ceagesp.gov.br/wp-content/uploads/2024/02/Mapa-Sazonalidade-2019-a-2023_FEV24-.pdf",
+    "uso": "Base mensal. Cada mês é classificado pela média das entradas em 60 meses (acima, ao redor ou abaixo da média). Variedades nacionais agrupadas por alimento."
+   },
+   {
+    "nome": "IDEC - Descubra quais são os alimentos de cada estação",
+    "url": "https://idec.org.br/dicas-e-direitos/descubra-quais-sao-os-alimentos-de-cada-estacao",
+    "uso": "Conferência por estação (frutas, legumes e verduras)."
+   },
+   {
+    "nome": "Organis - As frutas de cada estação",
+    "url": "https://organis.org.br/as-frutas-de-cada-estacao/",
+    "uso": "Conferência por estação (frutas)."
+   }
+  ],
+  "observacao": "A CEAGESP mede o volume que chega ao entreposto de São Paulo, que é um indicador da safra, mas não da colheita em Minas Gerais. Frutas que passam por câmara fria, como a maçã, podem aparecer fora da colheita.",
+  "observacao_base": "Alho, cebola e temperos verdes aparecem em quase todas as receitas. Eles ficam no calendário, mas não contam para o filtro \"da estação\"."
+ },
+ "alimentos": [
+  {
+   "nome": "Abacate",
+   "tipo": "Fruta",
+   "meses": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "outono",
+     "verao"
+    ],
+    "Organis": [
+     "outono",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Abacaxi",
+   "tipo": "Fruta",
+   "meses": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "verao"
+    ],
+    "Organis": [
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Acerola",
+   "tipo": "Fruta",
+   "meses": [
+    2,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2
+   ],
+   "fontes_estacao": {
+    "Organis": [
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Ameixa",
+   "tipo": "Fruta",
+   "meses": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "verao"
+    ],
+    "Organis": [
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Amora",
+   "tipo": "Fruta",
+   "meses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    1,
+    2,
+    2
+   ],
+   "fontes_estacao": {
+    "Organis": [
+     "primavera"
+    ]
+   }
+  },
+  {
+   "nome": "Atemoia",
+   "tipo": "Fruta",
+   "meses": [
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "nome": "Banana",
+   "tipo": "Fruta",
+   "meses": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "outono",
+     "primavera",
+     "verao"
+    ],
+    "Organis": [
+     "inverno",
+     "outono",
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Caju",
+   "tipo": "Fruta",
+   "meses": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    0,
+    1
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "primavera",
+     "verao"
+    ],
+    "Organis": [
+     "inverno",
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Caqui",
+   "tipo": "Fruta",
+   "meses": [
+    0,
+    0,
+    2,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "outono"
+    ],
+    "Organis": [
+     "inverno",
+     "outono"
+    ]
+   }
+  },
+  {
+   "nome": "Carambola",
+   "tipo": "Fruta",
+   "meses": [
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    1
+   ],
+   "fontes_estacao": {
+    "Organis": [
+     "inverno",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Coco",
+   "tipo": "Fruta",
+   "meses": [
+    2,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    2,
+    2,
+    1
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "outono",
+     "verao"
+    ],
+    "Organis": [
+     "inverno",
+     "outono",
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Cupuaçu",
+   "tipo": "Fruta",
+   "meses": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    0,
+    0
+   ],
+   "fontes_estacao": {
+    "Organis": [
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Figo",
+   "tipo": "Fruta",
+   "meses": [
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "verao"
+    ],
+    "Organis": [
+     "outono",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Framboesa",
+   "tipo": "Fruta",
+   "meses": [
+    1,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "nome": "Goiaba",
+   "tipo": "Fruta",
+   "meses": [
+    1,
+    2,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "outono",
+     "verao"
+    ],
+    "Organis": [
+     "outono",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Grapefruit",
+   "tipo": "Fruta",
+   "meses": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1
+   ]
+  },
+  {
+   "nome": "Graviola",
+   "tipo": "Fruta",
+   "meses": [
+    1,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    0
+   ],
+   "fontes_estacao": {
+    "Organis": [
+     "outono",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Jabuticaba",
+   "tipo": "Fruta",
+   "meses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    2,
+    0,
+    0
+   ],
+   "fontes_estacao": {
+    "Organis": [
+     "primavera"
+    ]
+   }
+  },
+  {
+   "nome": "Jaca",
+   "tipo": "Fruta",
+   "meses": [
+    2,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "outono",
+     "verao"
+    ],
+    "Organis": [
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Jambo",
+   "tipo": "Fruta",
+   "meses": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    2,
+    1
+   ]
+  },
+  {
+   "nome": "Kiwi",
+   "tipo": "Fruta",
+   "meses": [
+    0,
+    0,
+    1,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fontes_estacao": {
+    "Organis": [
+     "inverno",
+     "outono"
+    ]
+   }
+  },
+  {
+   "nome": "Laranja",
+   "tipo": "Fruta",
+   "meses": [
+    2,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "outono",
+     "primavera",
+     "verao"
+    ],
+    "Organis": [
+     "inverno",
+     "outono",
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Lichia",
+   "tipo": "Fruta",
+   "meses": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "fontes_estacao": {
+    "Organis": [
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Lima",
+   "tipo": "Fruta",
+   "meses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2,
+    1,
+    0
+   ]
+  },
+  {
+   "nome": "Limão",
+   "tipo": "Fruta",
+   "meses": [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "outono",
+     "verao"
+    ],
+    "Organis": [
+     "outono",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Maçã",
+   "tipo": "Fruta",
+   "meses": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "outono",
+     "verao"
+    ],
+    "Organis": [
+     "inverno",
+     "outono",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Mamão",
+   "tipo": "Fruta",
+   "meses": [
+    2,
+    1,
+    0,
+    1,
+    2,
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno"
+    ],
+    "Organis": [
+     "outono",
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Manga",
+   "tipo": "Fruta",
+   "meses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "verao"
+    ],
+    "Organis": [
+     "outono",
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Maracujá",
+   "tipo": "Fruta",
+   "meses": [
+    2,
+    0,
+    0,
+    2,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    0,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "outono",
+     "verao"
+    ],
+    "Organis": [
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Melancia",
+   "tipo": "Fruta",
+   "meses": [
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    2,
+    2
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "outono",
+     "verao"
+    ],
+    "Organis": [
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Melão",
+   "tipo": "Fruta",
+   "meses": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "primavera",
+     "verao"
+    ],
+    "Organis": [
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Mirtilo",
+   "tipo": "Fruta",
+   "meses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    2
+   ]
+  },
+  {
+   "nome": "Morango",
+   "tipo": "Fruta",
+   "meses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "primavera"
+    ],
+    "Organis": [
+     "inverno"
+    ]
+   }
+  },
+  {
+   "nome": "Nectarina",
+   "tipo": "Fruta",
+   "meses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2
+   ]
+  },
+  {
+   "nome": "Pera",
+   "tipo": "Fruta",
+   "meses": [
+    0,
+    2,
+    2,
+    1,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "outono",
+     "verao"
+    ],
+    "Organis": [
+     "outono",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Pêssego",
+   "tipo": "Fruta",
+   "meses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    1
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "primavera"
+    ],
+    "Organis": [
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Pinhão",
+   "tipo": "Fruta",
+   "meses": [
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno"
+    ]
+   }
+  },
+  {
+   "nome": "Pitanga",
+   "tipo": "Fruta",
+   "meses": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    1,
+    0
+   ],
+   "fontes_estacao": {
+    "Organis": [
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Romã",
+   "tipo": "Fruta",
+   "meses": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    1,
+    0
+   ]
+  },
+  {
+   "nome": "Seriguela",
+   "tipo": "Fruta",
+   "meses": [
+    1,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "nome": "Tangerina",
+   "tipo": "Fruta",
+   "meses": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "outono"
+    ],
+    "Organis": [
+     "inverno",
+     "primavera"
+    ]
+   }
+  },
+  {
+   "nome": "Uva",
+   "tipo": "Fruta",
+   "meses": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    2
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "verao"
+    ],
+    "Organis": [
+     "inverno",
+     "outono",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Abóbora",
+   "tipo": "Legume",
+   "meses": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "outono",
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Abobrinha",
+   "tipo": "Legume",
+   "meses": [
+    2,
+    1,
+    1,
+    2,
+    1,
+    2,
+    0,
+    0,
+    0,
+    2,
+    2,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "outono",
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Alcachofra",
+   "tipo": "Legume",
+   "meses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    1,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Alho",
+   "tipo": "Legume",
+   "meses": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "verao"
+    ]
+   },
+   "base": true
+  },
+  {
+   "nome": "Batata",
+   "tipo": "Legume",
+   "meses": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ]
+  },
+  {
+   "nome": "Batata Doce",
+   "tipo": "Legume",
+   "meses": [
+    1,
+    1,
+    2,
+    1,
+    2,
+    2,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "outono",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Berinjela",
+   "tipo": "Legume",
+   "meses": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    1
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "outono",
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Beterraba",
+   "tipo": "Legume",
+   "meses": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "primavera"
+    ]
+   }
+  },
+  {
+   "nome": "Cará",
+   "tipo": "Legume",
+   "meses": [
+    1,
+    0,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    2,
+    2,
+    1,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno"
+    ]
+   }
+  },
+  {
+   "nome": "Cebola",
+   "tipo": "Legume",
+   "meses": [
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    2,
+    1,
+    1,
+    2,
+    2
+   ],
+   "base": true
+  },
+  {
+   "nome": "Cenoura",
+   "tipo": "Legume",
+   "meses": [
+    2,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Chuchu",
+   "tipo": "Legume",
+   "meses": [
+    1,
+    1,
+    2,
+    2,
+    1,
+    1,
+    0,
+    1,
+    1,
+    2,
+    2,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "outono",
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Ervilha-torta",
+   "tipo": "Legume",
+   "meses": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    2,
+    1,
+    2,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "nome": "Feijão-de-corda",
+   "tipo": "Legume",
+   "meses": [
+    2,
+    2,
+    1,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "nome": "Gengibre",
+   "tipo": "Legume",
+   "meses": [
+    2,
+    1,
+    1,
+    1,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "base": true
+  },
+  {
+   "nome": "Inhame",
+   "tipo": "Legume",
+   "meses": [
+    2,
+    0,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1,
+    1,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno"
+    ]
+   }
+  },
+  {
+   "nome": "Jiló",
+   "tipo": "Legume",
+   "meses": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    0,
+    2,
+    1
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Mandioca",
+   "tipo": "Legume",
+   "meses": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "outono",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Mandioquinha",
+   "tipo": "Legume",
+   "meses": [
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    0,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "primavera"
+    ]
+   }
+  },
+  {
+   "nome": "Maxixe",
+   "tipo": "Legume",
+   "meses": [
+    2,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
+    2
+   ]
+  },
+  {
+   "nome": "Milho verde",
+   "tipo": "Legume",
+   "meses": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Palmito pupunha",
+   "tipo": "Legume",
+   "meses": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "nome": "Pepino",
+   "tipo": "Legume",
+   "meses": [
+    2,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    0
+   ]
+  },
+  {
+   "nome": "Pimenta",
+   "tipo": "Legume",
+   "meses": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "base": true
+  },
+  {
+   "nome": "Pimentão",
+   "tipo": "Legume",
+   "meses": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "outono",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Quiabo",
+   "tipo": "Legume",
+   "meses": [
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "outono",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Tomate",
+   "tipo": "Legume",
+   "meses": [
+    2,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    2,
+    2
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "outono"
+    ]
+   }
+  },
+  {
+   "nome": "Vagem",
+   "tipo": "Legume",
+   "meses": [
+    2,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    2,
+    2
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "outono",
+     "primavera"
+    ]
+   }
+  },
+  {
+   "nome": "Acelga",
+   "tipo": "Verdura",
+   "meses": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "outono"
+    ]
+   }
+  },
+  {
+   "nome": "Agrião",
+   "tipo": "Verdura",
+   "meses": [
+    0,
+    2,
+    2,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Alface",
+   "tipo": "Verdura",
+   "meses": [
+    2,
+    2,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "outono",
+     "primavera"
+    ]
+   }
+  },
+  {
+   "nome": "Alho-poró",
+   "tipo": "Verdura",
+   "meses": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    1,
+    2,
+    1,
+    0,
+    1,
+    0,
+    2
+   ],
+   "base": true
+  },
+  {
+   "nome": "Almeirão",
+   "tipo": "Verdura",
+   "meses": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    0,
+    1,
+    2,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "primavera"
+    ]
+   }
+  },
+  {
+   "nome": "Brócolis",
+   "tipo": "Verdura",
+   "meses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "outono"
+    ]
+   }
+  },
+  {
+   "nome": "Catalônia",
+   "tipo": "Verdura",
+   "meses": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "primavera"
+    ]
+   }
+  },
+  {
+   "nome": "Cebolinha",
+   "tipo": "Verdura",
+   "meses": [
+    1,
+    0,
+    2,
+    2,
+    2,
+    1,
+    2,
+    2,
+    1,
+    1,
+    1,
+    0
+   ],
+   "base": true
+  },
+  {
+   "nome": "Chicória",
+   "tipo": "Verdura",
+   "meses": [
+    2,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    2,
+    1,
+    1,
+    1,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Coentro",
+   "tipo": "Verdura",
+   "meses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2,
+    0,
+    2,
+    2
+   ],
+   "base": true
+  },
+  {
+   "nome": "Cogumelo",
+   "tipo": "Verdura",
+   "meses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    2,
+    2
+   ]
+  },
+  {
+   "nome": "Couve",
+   "tipo": "Verdura",
+   "meses": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    1,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno"
+    ]
+   }
+  },
+  {
+   "nome": "Couve-flor",
+   "tipo": "Verdura",
+   "meses": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    2,
+    2,
+    1,
+    1,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "primavera"
+    ]
+   }
+  },
+  {
+   "nome": "Escarola",
+   "tipo": "Verdura",
+   "meses": [
+    2,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    0
+   ]
+  },
+  {
+   "nome": "Espinafre",
+   "tipo": "Verdura",
+   "meses": [
+    2,
+    2,
+    1,
+    1,
+    2,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    0
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno"
+    ]
+   }
+  },
+  {
+   "nome": "Hortelã",
+   "tipo": "Verdura",
+   "meses": [
+    2,
+    1,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "base": true
+  },
+  {
+   "nome": "Manjericão",
+   "tipo": "Verdura",
+   "meses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1
+   ],
+   "base": true
+  },
+  {
+   "nome": "Mostarda",
+   "tipo": "Verdura",
+   "meses": [
+    0,
+    1,
+    2,
+    2,
+    1,
+    0,
+    1,
+    1,
+    1,
+    2,
+    2,
+    1
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno"
+    ]
+   }
+  },
+  {
+   "nome": "Moyashi",
+   "tipo": "Verdura",
+   "meses": [
+    1,
+    2,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    2,
+    2,
+    1,
+    1
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Nabo",
+   "tipo": "Verdura",
+   "meses": [
+    2,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2,
+    1
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "outono",
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Orégano",
+   "tipo": "Verdura",
+   "meses": [
+    2,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2
+   ],
+   "base": true
+  },
+  {
+   "nome": "Rabanete",
+   "tipo": "Verdura",
+   "meses": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    2,
+    2,
+    1,
+    1,
+    2,
+    1
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "outono",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Repolho",
+   "tipo": "Verdura",
+   "meses": [
+    2,
+    1,
+    2,
+    2,
+    2,
+    0,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1
+   ],
+   "fontes_estacao": {
+    "IDEC": [
+     "inverno",
+     "outono",
+     "primavera",
+     "verao"
+    ]
+   }
+  },
+  {
+   "nome": "Rúcula",
+   "tipo": "Verdura",
+   "meses": [
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "nome": "Salsa",
+   "tipo": "Verdura",
+   "meses": [
+    1,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "base": true
+  }
+ ]
+}

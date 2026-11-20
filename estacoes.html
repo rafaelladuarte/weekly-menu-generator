@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário de safra - Receitas em Harmonia</title>
+    <link rel="icon" href="imagens/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="imagens/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="imagens/apple-touch-icon.png">
+    <meta name="theme-color" content="#2B311B">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="inner">
+            <a class="brand" href="index.html">Receitas em Harmonia</a>
+            <nav class="site-nav" aria-label="Principal">
+                <a href="index.html">Receitas</a>
+                <a href="gerador.html">Cardápio da semana</a>
+                <a href="estacoes.html" aria-current="page">Estações</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="wrap">
+        <main>
+            <h1 class="page-title">Calendário de safra</h1>
+            <p class="hint">
+                Frutas, legumes e verduras com mais oferta em cada mês no Sudeste. Escolha um mês e toque em um
+                alimento para ver as receitas que o usam.
+            </p>
+
+            <div class="month-picker" id="month-picker" role="group" aria-label="Mês"></div>
+
+            <div id="loading" class="py-5 text-secondary">Carregando o calendário...</div>
+
+            <section id="season-view" class="d-none" aria-live="polite">
+                <div class="results-bar">
+                    <span id="season-title"></span>
+                    <span class="legend">
+                        <span class="swatch swatch-high"></span> alta oferta
+                        <span class="swatch swatch-mid"></span> oferta média
+                    </span>
+                </div>
+                <div id="food-groups"></div>
+                <div id="food-recipes" class="food-recipes d-none"></div>
+            </section>
+
+            <section id="matrix-view" class="d-none">
+                <h2 class="section-title">O ano inteiro</h2>
+                <div class="matrix-scroll" tabindex="0" role="region" aria-label="Tabela de safra por mês">
+                    <table class="matrix" id="matrix"></table>
+                </div>
+            </section>
+
+            <section id="sources" class="sources d-none">
+                <h2 class="section-title">De onde vêm os dados</h2>
+                <ul id="sources-list"></ul>
+                <p id="sources-note"></p>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        const { esc, MONTHS } = App;
+        const SHORT = MONTHS.map(m => m.slice(0, 3));
+        const TYPES = [['Fruta', 'Frutas'], ['Legume', 'Legumes'], ['Verdura', 'Verduras']];
+        const LEVEL_LABEL = ['baixa', 'média', 'alta'];
+
+        let recipes = [];
+        let month = new Date().getMonth(); // 0 = janeiro
+        let selectedFood = null;
+
+        function recipesFor(food) {
+            return recipes.filter(r => App.recipeFoods(r).some(f => f.nome === food.nome));
+        }
+
+        function renderMonthPicker() {
+            const el = document.getElementById('month-picker');
+            el.innerHTML = MONTHS.map((m, i) => `
+                <button type="button" class="chip" data-m="${i}" aria-pressed="${i === month}"
+                        aria-label="${m}">${SHORT[i]}</button>`).join('');
+            el.querySelectorAll('button').forEach(b => b.addEventListener('click', () => {
+                month = +b.dataset.m;
+                selectedFood = null;
+                renderAll();
+            }));
+        }
+
+        function renderSeason() {
+            const foods = App.getSeasonal().alimentos.filter(f => f.meses[month] > 0);
+            document.getElementById('season-title').textContent = `Em safra em ${MONTHS[month]}`;
+            document.getElementById('food-groups').innerHTML = TYPES.map(([tipo, plural]) => {
+                const list = foods.filter(f => f.tipo === tipo)
+                    .sort((a, b) => b.meses[month] - a.meses[month] || a.nome.localeCompare(b.nome, 'pt-BR'));
+                if (!list.length) return '';
+                return `
+                    <div class="food-group">
+                        <h2 class="section-label">${plural}</h2>
+                        <div class="chips">
+                            ${list.map(f => {
+                                const n = recipesFor(f).length;
+                                return `<button type="button" class="food ${f.meses[month] === 2 ? 'food-high' : 'food-mid'}"
+                                            data-food="${esc(f.nome)}" aria-pressed="${selectedFood === f.nome}"
+                                            aria-label="${esc(f.nome)}, oferta ${LEVEL_LABEL[f.meses[month]]}, ${n} receitas">
+                                            ${esc(f.nome)}${n ? `<span class="food-n">${n}</span>` : ''}
+                                        </button>`;
+                            }).join('')}
+                        </div>
+                    </div>`;
+            }).join('');
+            document.querySelectorAll('.food').forEach(b => b.addEventListener('click', () => {
+                selectedFood = selectedFood === b.dataset.food ? null : b.dataset.food;
+                renderSeason();
+                renderFoodRecipes();
+            }));
+        }
+
+        function renderFoodRecipes() {
+            const el = document.getElementById('food-recipes');
+            const food = selectedFood && App.getSeasonal().alimentos.find(f => f.nome === selectedFood);
+            if (!food) { el.classList.add('d-none'); return; }
+            const list = recipesFor(food);
+            el.classList.remove('d-none');
+            el.innerHTML = `
+                <h2 class="section-label">Receitas com ${esc(food.nome.toLowerCase())}</h2>
+                ${list.length ? `<ul class="food-recipe-list">${list.map(r => `
+                    <li><button type="button" class="slot-name" data-r="${esc(r.nome)}">${esc(r.nome)}</button></li>`).join('')}</ul>`
+                    : '<p class="m-0 text-secondary">Nenhuma receita cadastrada usa este alimento.</p>'}`;
+            el.querySelectorAll('[data-r]').forEach(b => b.addEventListener('click',
+                () => App.showRecipeModal(recipes.find(r => r.nome === b.dataset.r))));
+        }
+
+        function renderMatrix() {
+            const foods = App.getSeasonal().alimentos;
+            const head = `<thead><tr><th scope="col" class="matrix-name">Alimento</th>${SHORT.map((m, i) =>
+                `<th scope="col" class="${i === month ? 'now' : ''}">${m}</th>`).join('')}</tr></thead>`;
+            const body = TYPES.map(([tipo, plural]) => {
+                const list = foods.filter(f => f.tipo === tipo).sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
+                return `<tbody><tr class="matrix-group"><th colspan="13" scope="colgroup">${plural}</th></tr>${list.map(f => `
+                    <tr><th scope="row" class="matrix-name">${esc(f.nome)}</th>${f.meses.map((v, i) =>
+                        `<td class="lv${v}${i === month ? ' now' : ''}"><span class="visually-hidden">${LEVEL_LABEL[v]}</span><span aria-hidden="true">${v === 2 ? 'A' : v === 1 ? 'M' : ''}</span></td>`).join('')}</tr>`).join('')}</tbody>`;
+            }).join('');
+            document.getElementById('matrix').innerHTML = head + body;
+        }
+
+        function renderSources() {
+            const meta = App.getSeasonal().meta;
+            document.getElementById('sources-list').innerHTML = meta.fontes.map(f =>
+                `<li><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nome)}</a><br><span class="text-secondary">${esc(f.uso)}</span></li>`).join('');
+            document.getElementById('sources-note').textContent = meta.observacao + ' ' + meta.observacao_base;
+        }
+
+        function renderAll() {
+            renderMonthPicker();
+            renderSeason();
+            renderFoodRecipes();
+            renderMatrix();
+        }
+
+        async function init() {
+            try {
+                [recipes] = await Promise.all([App.loadRecipes(), App.loadSeasonal()]);
+                renderAll();
+                renderSources();
+                ['season-view', 'matrix-view', 'sources'].forEach(id => document.getElementById(id).classList.remove('d-none'));
+                document.getElementById('loading').classList.add('d-none');
+            } catch (error) {
+                console.error(error);
+                document.getElementById('loading').textContent = 'Não foi possível carregar o calendário. Se abriu o arquivo direto do disco, use um servidor local (por exemplo, python3 -m http.server).';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
