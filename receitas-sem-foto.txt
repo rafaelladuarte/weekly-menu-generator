@@ -1,20 +1,3 @@
 # Receitas sem foto - cole a URL da imagem depois de '|' em cada linha
 # Formato: Nome da receita | URL
 
-Filé de Tilápia ao Molho Branco | 
-Mousse Proteico de Cacau | 
-Pasta de Grão-de-Bico | 
-Suflê de Ovos com Queijo | 
-Creme de Aveia com Chocolate | 
-Creme de Tapioca com Leite e Whey | 
-Creme Salgado de Ovos e Cottage | 
-Estrogonofe de Carne com Creme de Mandioquinha | 
-Creme de Abóbora com Camarão | 
-Polenta Cremosa com Carne Moída | 
-Creme de Batata com Salmão | 
-Flan Proteico de Chocolate | 
-Mousse de Doce de Leite Proteica | 
-Creme de Banana com Pasta de Amendoim | 
-Arroz-Doce Proteico | 
-Mingau Proteico de Banana | 
-Ovos Cremosos com Ricota | 
