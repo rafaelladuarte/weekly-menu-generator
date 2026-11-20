@@ -45,6 +45,11 @@ const App = (() => {
         return `<p class="season-note">Em safra em ${MONTHS[new Date().getMonth()].toLowerCase()}: <strong>${now.map(f => esc(f.nome)).join(', ')}</strong></p>`;
     }
 
+    // "22–25 g de proteína" por porção, quando a receita informa.
+    function protein(recipe) {
+        return recipe.proteina ? `${esc(recipe.proteina)} de proteína` : '';
+    }
+
     function recipeModalHTML(recipe) {
         const ingredients = Object.entries(recipe.ingredientes || {}).map(([k, v]) =>
             `<li><span>${esc(k)}</span><span>${esc(v)}</span></li>`).join('');
@@ -69,7 +74,7 @@ const App = (() => {
                             <div class="row g-4">
                                 <div class="col-md-5">
                                     ${photoHTML(recipe, { lazy: false }).replace('class="photo', 'style="aspect-ratio:4/3;width:100%;border-radius:6px" class="photo')}
-                                    <p class="recipe-meta mt-3 mb-0">${portions(recipe)}</p>
+                                    <p class="recipe-meta mt-3 mb-0">${[portions(recipe), protein(recipe)].filter(Boolean).join(' · ')}</p>
                                     <ul class="tag-list">${labels}</ul>
                                     ${seasonNote(recipe)}
                                 </div>
@@ -156,5 +161,5 @@ const App = (() => {
         return recipeFoods(recipe).filter(f => !f.base && f.meses[month] >= minLevel);
     }
 
-    return { MONTHS, loadSeasonal, recipeFoods, foodsInSeason, getSeasonal: () => seasonal, esc, photoHTML, loadRecipes, portions, showRecipeModal, shuffle };
+    return { protein, MONTHS, loadSeasonal, recipeFoods, foodsInSeason, getSeasonal: () => seasonal, esc, photoHTML, loadRecipes, portions, showRecipeModal, shuffle };
 })();

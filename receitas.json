@@ -954,7 +954,7 @@
             "Baixo carboidrato",
             "Pós-treino"
         ],
-        "image": "sem-imagem.png"
+        "image": "galinha-caipira.webp"
     },
     {
         "nome": "Linguiça de Frango",
@@ -976,7 +976,7 @@
             "Rico em proteína",
             "Baixo carboidrato"
         ],
-        "image": "sem-imagem.png"
+        "image": "linguica-de-frango.webp"
     },
     {
         "nome": "Almôndegas",
@@ -1005,7 +1005,7 @@
         "tags": [
             "Rico em proteína"
         ],
-        "image": "sem-imagem.png"
+        "image": "almondegas.webp"
     },
     {
         "nome": "Carne de Panela com Batata",
@@ -1034,7 +1034,7 @@
             "Baixo carboidrato",
             "Pós-treino"
         ],
-        "image": "sem-imagem.png"
+        "image": "carne-de-panela-com-batata.webp"
     },
     {
         "nome": "Bife ao Molho Barbecue",
@@ -1061,7 +1061,7 @@
             "Baixo carboidrato",
             "Pós-treino"
         ],
-        "image": "sem-imagem.png"
+        "image": "bife-ao-molho-barbecue.webp"
     },
     {
         "nome": "Bife à Milanesa",
@@ -1086,7 +1086,7 @@
         "tags": [
             "Rico em proteína"
         ],
-        "image": "sem-imagem.png"
+        "image": "bife-a-milanesa.webp"
     },
     {
         "nome": "Bife à Parmegiana",
@@ -1112,7 +1112,7 @@
             "Rico em proteína",
             "Baixo carboidrato"
         ],
-        "image": "sem-imagem.png"
+        "image": "bife-a-parmegiana.webp"
     },
     {
         "nome": "Bife de Fígado Acebolado",
@@ -1139,7 +1139,7 @@
             "Rico em proteína",
             "Baixo carboidrato"
         ],
-        "image": "sem-imagem.png"
+        "image": "bife-de-figado-acebolado.webp"
     },
     {
         "nome": "Picadinho de Carne",
@@ -1172,7 +1172,7 @@
             "Rico em fibras",
             "Pós-treino"
         ],
-        "image": "sem-imagem.png"
+        "image": "picadinho-de-carne.webp"
     },
     {
         "nome": "Carne Moída",
@@ -1201,7 +1201,7 @@
             "Baixo carboidrato",
             "Pós-treino"
         ],
-        "image": "sem-imagem.png"
+        "image": "carne-moida.webp"
     },
     {
         "nome": "Vaca Atolada",
@@ -1232,7 +1232,7 @@
             "Rico em proteína",
             "Pós-treino"
         ],
-        "image": "sem-imagem.png"
+        "image": "vaca-atolada.webp"
     },
     {
         "nome": "Bife Wellington",
@@ -1260,7 +1260,7 @@
         "tags": [
             "Rico em proteína"
         ],
-        "image": "sem-imagem.png"
+        "image": "bife-wellington.webp"
     },
     {
         "nome": "Escondidinho de Carne Moída",
@@ -1288,7 +1288,7 @@
         "tags": [
             "Rico em proteína"
         ],
-        "image": "sem-imagem.png"
+        "image": "escondidinho-de-carne-moida.webp"
     },
     {
         "nome": "Rocambole de Carne Moída Recheado",
@@ -1317,7 +1317,7 @@
         "tags": [
             "Rico em proteína"
         ],
-        "image": "sem-imagem.png"
+        "image": "rocambole-de-carne-moida-recheado.webp"
     },
     {
         "nome": "Filé de Peixe à Milanesa",
@@ -1342,7 +1342,7 @@
         "tags": [
             "Rico em proteína"
         ],
-        "image": "sem-imagem.png"
+        "image": "file-de-peixe-a-milanesa.webp"
     },
     {
         "nome": "Quibe Recheado com Molho Branco e Mussarela",
@@ -1371,7 +1371,7 @@
         "tags": [
             "Rico em proteína"
         ],
-        "image": "sem-imagem.png"
+        "image": "quibe-recheado-com-molho-branco-e-mussarela.webp"
     },
     {
         "nome": "Lombo a Molho Barbecue",
@@ -1400,7 +1400,7 @@
             "Baixo carboidrato",
             "Pós-treino"
         ],
-        "image": "sem-imagem.png"
+        "image": "lombo-a-molho-barbecue.webp"
     },
     {
         "nome": "Pernil Assado a Molho Madeira",
@@ -1430,7 +1430,7 @@
             "Leve",
             "Pós-treino"
         ],
-        "image": "sem-imagem.png"
+        "image": "pernil-assado-a-molho-madeira.webp"
     },
     {
         "nome": "Picadinho de Pernil ao Cubo",
@@ -1459,7 +1459,7 @@
             "Baixo carboidrato",
             "Pós-treino"
         ],
-        "image": "sem-imagem.png"
+        "image": "picadinho-de-pernil-ao-cubo.webp"
     },
     {
         "nome": "Costelinha Suína Caramelizada",
@@ -1491,7 +1491,7 @@
             "Rico em proteína",
             "Pós-treino"
         ],
-        "image": "sem-imagem.png"
+        "image": "costelinha-suina-caramelizada.webp"
     },
     {
         "nome": "Filé de Porco ao Molho de Laranja e Gengibre",
@@ -1523,7 +1523,7 @@
             "Rico em proteína",
             "Pós-treino"
         ],
-        "image": "sem-imagem.png"
+        "image": "file-de-porco-ao-molho-de-laranja-e-gengibre.webp"
     },
     {
         "nome": "Bisteca de Porco Grelhada",
@@ -1552,7 +1552,7 @@
             "Leve",
             "Pós-treino"
         ],
-        "image": "sem-imagem.png"
+        "image": "bisteca-de-porco-grelhada.webp"
     },
     {
         "nome": "Macarrão à Primavera",
@@ -2090,7 +2090,7 @@
             "Guarnição"
         ],
         "tags": [],
-        "image": "sem-imagem.png"
+        "image": "batata-inglesa-saute.webp"
     },
     {
         "nome": "Berinjela à Milanesa",
@@ -2117,7 +2117,7 @@
         "tags": [
             "Rico em fibras"
         ],
-        "image": "sem-imagem.png"
+        "image": "berinjela-a-milanesa.webp"
     },
     {
         "nome": "Virado de Abobrinha",
@@ -2146,7 +2146,7 @@
             "Rico em fibras",
             "Pré-treino"
         ],
-        "image": "sem-imagem.png"
+        "image": "virado-de-abobrinha.webp"
     },
     {
         "nome": "Virado de Couve",
@@ -2174,7 +2174,7 @@
             "Rico em fibras",
             "Pré-treino"
         ],
-        "image": "sem-imagem.png"
+        "image": "virado-de-couve.webp"
     },
     {
         "nome": "Virado de Repolho",
@@ -2202,7 +2202,7 @@
             "Rico em fibras",
             "Pré-treino"
         ],
-        "image": "sem-imagem.png"
+        "image": "virado-de-repolho.webp"
     },
     {
         "nome": "Milho Refogado",
@@ -2227,7 +2227,7 @@
             "Guarnição"
         ],
         "tags": [],
-        "image": "sem-imagem.png"
+        "image": "milho-refogado.webp"
     },
     {
         "nome": "Couve-flor Gratinada",
@@ -2255,7 +2255,7 @@
         "tags": [
             "Rico em fibras"
         ],
-        "image": "sem-imagem.png"
+        "image": "couve-flor-gratinada.webp"
     },
     {
         "nome": "Caponata de Berinjela",
@@ -2309,7 +2309,7 @@
             "Guarnição"
         ],
         "tags": [],
-        "image": "sem-imagem.png"
+        "image": "batata-frita.webp"
     },
     {
         "nome": "Sunomono",
@@ -2333,7 +2333,7 @@
             "Guarnição"
         ],
         "tags": [],
-        "image": "sem-imagem.png"
+        "image": "sunomono.webp"
     },
     {
         "nome": "Banana Frita",
@@ -2355,7 +2355,7 @@
             "Guarnição"
         ],
         "tags": [],
-        "image": "sem-imagem.png"
+        "image": "banana-frita.webp"
     },
     {
         "nome": "Ratatouille",
@@ -2387,7 +2387,7 @@
             "Baixo carboidrato",
             "Leve"
         ],
-        "image": "sem-imagem.png",
+        "image": "ratatouille.webp",
         "porção": "4 porções"
     },
     {
@@ -2414,7 +2414,7 @@
             "Rico em fibras",
             "Leve"
         ],
-        "image": "sem-imagem.png",
+        "image": "brocolis-refogado.webp",
         "porção": "2 porções"
     },
     {
@@ -2440,7 +2440,7 @@
         "tags": [
             "Rico em fibras"
         ],
-        "image": "sem-imagem.png",
+        "image": "brocolis-gratinado.webp",
         "porção": "3 porções"
     },
     {
@@ -2463,7 +2463,7 @@
             "Guarnição"
         ],
         "tags": [],
-        "image": "sem-imagem.png",
+        "image": "mandioca-frita.webp",
         "porção": "2 porções"
     },
     {
@@ -2492,7 +2492,7 @@
             "Rico em fibras",
             "Leve"
         ],
-        "image": "sem-imagem.png",
+        "image": "guacamole.webp",
         "porção": "2 porções"
     },
     {
@@ -2522,7 +2522,7 @@
         "tags": [
             "Rico em fibras"
         ],
-        "image": "sem-imagem.png",
+        "image": "berinjela-recheada.webp",
         "porção": "2 porções"
     },
     {
@@ -2549,7 +2549,7 @@
             "Guarnição"
         ],
         "tags": [],
-        "image": "sem-imagem.png",
+        "image": "tomate-recheado.webp",
         "porção": "2 porções"
     },
     {
@@ -2577,7 +2577,7 @@
             "Guarnição"
         ],
         "tags": [],
-        "image": "sem-imagem.png",
+        "image": "soufle-de-legumes.webp",
         "porção": "4 porções"
     },
     {
@@ -3074,5 +3074,780 @@
             "Pós-treino"
         ],
         "image": "ceviche-de-atum.jpg"
+    },
+    {
+        "nome": "Mingau Proteico Frio (Overnight Oats)",
+        "verificado": false,
+        "porção": 1,
+        "ingredientes": {
+            "Aveia em Flocos": "4 colheres de sopa",
+            "Iogurte Natural Desnatado": "150ml",
+            "Leite": "100 ml",
+            "Whey Protein": "1 scoop (30g)",
+            "Chia": "1 colher de sopa",
+            "Banana": "1 unidade em rodelas",
+            "Mel": "1 colher de chá"
+        },
+        "receita": [
+            "Em um pote com tampa, misture a aveia, o whey, a chia e o mel.",
+            "Adicione o iogurte e o leite e mexa até não ficarem grumos de whey.",
+            "Tampe e leve à geladeira por pelo menos 6 horas, de preferência de um dia para o outro.",
+            "Na hora de servir, misture e cubra com as rodelas de banana. Se ficar muito firme, acrescente um pouco de leite."
+        ],
+        "categorias": [
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Rico em fibras",
+            "Café da manhã"
+        ],
+        "image": "mingau-proteico-frio-overnight-oats.webp"
+    },
+    {
+        "nome": "Caldo Verde Proteico Batido",
+        "verificado": false,
+        "porção": 3,
+        "ingredientes": {
+            "Peito de Frango": "300g",
+            "Batata": "2 unidades médias",
+            "Couve": "1 maço",
+            "Cebola": "1 unidade",
+            "Alho": "2 dentes",
+            "Azeite": "1 colher de sopa",
+            "Água": "800 ml",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto"
+        },
+        "receita": [
+            "Corte a batata em cubos e o frango em pedaços grandes. Fatie a couve bem fininha e reserve.",
+            "Em uma panela, refogue a cebola e o alho no azeite até ficarem macios.",
+            "Junte a batata, o frango e a água. Tempere com sal e pimenta e cozinhe por cerca de 20 minutos, até tudo ficar macio.",
+            "Bata no liquidificador até obter um creme liso, em partes, com cuidado por causa do vapor.",
+            "Devolva à panela, acrescente a couve e cozinhe por 3 minutos para manter a cor. Ajuste o sal e sirva quente."
+        ],
+        "categorias": [
+            "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Rico em fibras",
+            "Leve",
+            "Pós-treino"
+        ],
+        "image": "caldo-verde-proteico-batido.webp"
+    },
+    {
+        "nome": "Purê de Batata Doce com Frango Desfiado Cremoso",
+        "verificado": false,
+        "porção": 2,
+        "ingredientes": {
+            "Batata Doce": "400g",
+            "Peito de Frango": "300g",
+            "Requeijão Cremoso": "2 colheres de sopa",
+            "Cebola": "1/2 unidade",
+            "Alho": "2 dentes",
+            "Azeite": "1 colher de sopa",
+            "Leite": "50 ml",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto",
+            "Salsinha": "a gosto"
+        },
+        "receita": [
+            "Cozinhe o frango em água com sal até ficar macio. Escorra, desfie e reserve um pouco do caldo.",
+            "Cozinhe a batata doce descascada até ficar bem macia, escorra e amasse com o leite, uma pitada de sal e um fio de azeite até formar um purê.",
+            "Refogue a cebola e o alho no azeite, junte o frango desfiado e um pouco do caldo e tempere com sal e pimenta.",
+            "Acrescente o requeijão, mexa até ficar cremoso e desligue o fogo.",
+            "Monte em um refratário ou prato com o purê embaixo e o frango por cima. Finalize com salsinha."
+        ],
+        "categorias": [
+            "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Pós-treino"
+        ],
+        "image": "pure-de-batata-doce-com-frango-desfiado-cremoso.webp"
+    },
+    {
+        "nome": "Creme de Abóbora com Carne Moída",
+        "verificado": false,
+        "porção": 3,
+        "ingredientes": {
+            "Abóbora Cabotiá": "500g",
+            "Carne Moída": "300g",
+            "Cebola": "1 unidade",
+            "Alho": "2 dentes",
+            "Azeite": "1 colher de sopa",
+            "Água": "300 ml",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto",
+            "Salsinha": "a gosto"
+        },
+        "receita": [
+            "Cozinhe a abóbora em pedaços até ficar bem macia. Escorra e bata no liquidificador com a água até obter um creme liso. Tempere com sal.",
+            "Em uma frigideira, aqueça o azeite e refogue a cebola e o alho.",
+            "Junte a carne moída, tempere com sal e pimenta e cozinhe mexendo até secar e dourar.",
+            "Sirva o creme de abóbora em um prato fundo e coloque a carne moída por cima. Finalize com salsinha."
+        ],
+        "categorias": [
+            "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Pós-treino"
+        ],
+        "image": "creme-de-abobora-com-carne-moida.webp"
+    },
+    {
+        "nome": "Filé de Tilápia ao Molho Branco",
+        "verificado": false,
+        "porção": 2,
+        "ingredientes": {
+            "Filé de Tilápia": "4 unidades (400g)",
+            "Suco de Limão": "1 colher de sopa",
+            "Alho": "1 dente picado",
+            "Azeite": "1 colher de sopa",
+            "Sal": "a gosto",
+            "Pimenta-do-reino": "a gosto",
+            "Manteiga": "1 colher de sopa",
+            "Farinha de Trigo": "1 e meia colher de sopa",
+            "Leite": "300 ml",
+            "Noz-moscada": "a gosto",
+            "Queijo Parmesão": "2 colheres de sopa ralado"
+        },
+        "receita": [
+            "Tempere os filés com o suco de limão, o alho, sal e pimenta e deixe descansar por 10 minutos.",
+            "Aqueça o azeite em uma frigideira e grelhe os filés por 3 a 4 minutos de cada lado, até dourarem. Reserve.",
+            "Para o molho, derreta a manteiga em uma panela, junte a farinha e mexa por 1 minuto.",
+            "Adicione o leite aos poucos, mexendo sempre, e cozinhe até engrossar. Tempere com sal, pimenta e noz-moscada.",
+            "Acrescente o parmesão, mexa até derreter e sirva o molho sobre os filés."
+        ],
+        "categorias": [
+            "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Mousse Proteico de Cacau",
+        "verificado": false,
+        "porção": 2,
+        "ingredientes": {
+            "Iogurte Grego Natural": "200g",
+            "Whey Protein": "1 scoop (30g) de chocolate",
+            "Cacau em Pó": "1 colher de sopa",
+            "Leite": "50 ml",
+            "Mel": "1 colher de chá"
+        },
+        "receita": [
+            "Coloque todos os ingredientes em um recipiente e bata com um fouet ou na batedeira até ficar liso e aerado.",
+            "Divida em dois copos ou potes.",
+            "Leve à geladeira por pelo menos 2 horas antes de servir. Se quiser, finalize com cacau em pó por cima."
+        ],
+        "categorias": [
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Pós-treino"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Creme de Açaí com Whey",
+        "verificado": false,
+        "porção": 1,
+        "ingredientes": {
+            "Polpa de Açaí": "100g sem açúcar, congelada",
+            "Banana": "1 unidade congelada",
+            "Whey Protein": "1 scoop (30g)",
+            "Leite": "50 ml",
+            "Granola": "2 colheres de sopa"
+        },
+        "receita": [
+            "Quebre a polpa de açaí em pedaços e coloque no liquidificador com a banana congelada, o whey e o leite.",
+            "Bata até obter um creme espesso, ajudando com uma colher se necessário. Acrescente um pouco mais de leite só se travar.",
+            "Sirva imediatamente em uma tigela com a granola por cima."
+        ],
+        "categorias": [
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Pós-treino"
+        ],
+        "image": "creme-de-acai-com-whey.webp"
+    },
+    {
+        "nome": "Pasta de Grão-de-Bico",
+        "verificado": false,
+        "porção": 4,
+        "ingredientes": {
+            "Grão-de-Bico": "2 xícaras cozido",
+            "Suco de Limão": "2 colheres de sopa",
+            "Alho": "1 dente",
+            "Azeite": "3 colheres de sopa",
+            "Cominho": "1 colher de chá",
+            "Água": "3 colheres de sopa",
+            "Sal": "a gosto"
+        },
+        "receita": [
+            "Escorra o grão-de-bico, reservando um pouco do líquido do cozimento.",
+            "Coloque tudo no processador ou liquidificador e bata até obter uma pasta lisa, acrescentando a água ou o líquido reservado aos poucos.",
+            "Prove e ajuste o sal e o limão.",
+            "Sirva com torradas, pão sírio ou palitos de legumes, com um fio de azeite por cima."
+        ],
+        "categorias": [
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em fibras"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Suflê de Ovos com Queijo",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "22–25 g",
+        "ingredientes": {
+            "Ovos": "2 unidades",
+            "Queijo Cottage": "50g",
+            "Queijo Mussarela": "30g",
+            "Leite": "2 colheres"
+        },
+        "receita": [
+            "Bata todos os ingredientes.",
+            "Coloque em um refratário e asse até firmar.",
+            "Deixe esfriar e confira se a textura está macia o suficiente."
+        ],
+        "categorias": [
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Café da manhã",
+            "Textura macia"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Creme de Aveia com Chocolate",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "25–30 g",
+        "ingredientes": {
+            "Leite": "200 ml",
+            "Aveia Fina": "30g",
+            "Whey Protein de Chocolate": "1 dose",
+            "Banana": "1/2 unidade"
+        },
+        "receita": [
+            "Cozinhe a aveia com o leite.",
+            "Bata com a banana.",
+            "Espere amornar e misture o whey."
+        ],
+        "categorias": [
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Café da manhã",
+            "Textura macia"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Creme de Tapioca com Leite e Whey",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "22–27 g",
+        "ingredientes": {
+            "Leite": "200 ml",
+            "Tapioca Granulada": "2 colheres",
+            "Whey Protein de Baunilha": "1 dose"
+        },
+        "receita": [
+            "Cozinhe a tapioca no leite até ficar muito macia.",
+            "Espere amornar e misture o whey.",
+            "Bata se precisar eliminar os grânulos."
+        ],
+        "categorias": [
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Café da manhã",
+            "Textura macia"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Creme Salgado de Ovos e Cottage",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "22–25 g",
+        "ingredientes": {
+            "Ovos": "2 unidades",
+            "Queijo Cottage": "100g",
+            "Leite": "1 colher"
+        },
+        "receita": [
+            "Cozinhe os ovos mexidos em fogo baixo.",
+            "Bata com o cottage e o leite até obter um creme uniforme."
+        ],
+        "categorias": [
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Café da manhã",
+            "Textura macia"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Estrogonofe de Carne com Creme de Mandioquinha",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "30–35 g",
+        "ingredientes": {
+            "Patinho Moído": "120g",
+            "Mandioquinha": "150g",
+            "Creme de Leite": "2 colheres",
+            "Leite": "um pouco"
+        },
+        "receita": [
+            "Cozinhe a carne muito bem, sem pedaços grandes.",
+            "Cozinhe a mandioquinha e bata com um pouco de leite até formar um creme.",
+            "Misture o creme de leite à carne e sirva com o creme de mandioquinha."
+        ],
+        "categorias": [
+            "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Textura macia"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Creme de Abóbora com Camarão",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "25–30 g",
+        "ingredientes": {
+            "Camarão Limpo": "150g",
+            "Abóbora": "200g",
+            "Requeijão": "1 colher"
+        },
+        "receita": [
+            "Cozinhe bem o camarão e a abóbora.",
+            "Processe tudo com o requeijão até ficar homogêneo.",
+            "Atenção: não use se houver alergia a crustáceos."
+        ],
+        "categorias": [
+            "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Textura macia"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Polenta Cremosa com Carne Moída",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "30–35 g",
+        "ingredientes": {
+            "Patinho Moído": "120g",
+            "Fubá": "40g",
+            "Queijo Parmesão": "1 colher ralado fino",
+            "Água e Leite": "quantidade suficiente"
+        },
+        "receita": [
+            "Prepare uma polenta bem cremosa com o fubá, a água e o leite.",
+            "Misture o parmesão.",
+            "Cozinhe a carne moída e processe.",
+            "Misture a carne cozida e processada à polenta."
+        ],
+        "categorias": [
+            "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Textura macia"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Creme de Batata com Salmão",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "28–32 g",
+        "ingredientes": {
+            "Salmão": "120g",
+            "Batata": "150g",
+            "Iogurte Natural": "2 colheres",
+            "Azeite": "a gosto"
+        },
+        "receita": [
+            "Cozinhe o salmão completamente e retire a pele e as espinhas.",
+            "Cozinhe a batata.",
+            "Bata o salmão com a batata cozida, o iogurte e um fio de azeite."
+        ],
+        "categorias": [
+            "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Textura macia"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Flan Proteico de Chocolate",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "20–25 g",
+        "ingredientes": {
+            "Leite": "200 ml",
+            "Whey Protein": "1 dose",
+            "Gelatina Incolor": "1 envelope"
+        },
+        "receita": [
+            "Prepare a gelatina conforme a embalagem.",
+            "Misture ao leite e ao whey.",
+            "Leve à geladeira até firmar. Deixe a textura suave, sem cobertura crocante."
+        ],
+        "categorias": [
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Textura macia"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Mousse de Doce de Leite Proteica",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "18–22 g",
+        "ingredientes": {
+            "Iogurte Natural": "170g",
+            "Whey Protein de Baunilha": "1/2 dose",
+            "Doce de Leite": "1 colher"
+        },
+        "receita": [
+            "Misture tudo até ficar aerado e homogêneo.",
+            "Sirva gelado."
+        ],
+        "categorias": [
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Textura macia"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Creme de Banana com Pasta de Amendoim",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "20–25 g",
+        "ingredientes": {
+            "Banana": "1 unidade madura",
+            "Iogurte Proteico": "170g",
+            "Pasta de Amendoim": "1 colher",
+            "Canela": "a gosto"
+        },
+        "receita": [
+            "Bata tudo no liquidificador.",
+            "Use pasta de amendoim bem lisa, sem pedaços."
+        ],
+        "categorias": [
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Textura macia"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Arroz-Doce Proteico",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "18–23 g",
+        "ingredientes": {
+            "Arroz Cozido": "100g bem cozido",
+            "Leite": "200 ml",
+            "Whey Protein de Baunilha": "1/2 dose",
+            "Canela": "opcional"
+        },
+        "receita": [
+            "Cozinhe até o arroz quase desmanchar.",
+            "Bata para obter um creme.",
+            "Misture o whey depois de amornar."
+        ],
+        "categorias": [
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Textura macia"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Mingau Proteico de Banana",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "20–25 g",
+        "ingredientes": {
+            "Leite": "200 ml",
+            "Aveia Fina": "2 colheres",
+            "Banana": "1 unidade madura",
+            "Whey Protein": "1 dose"
+        },
+        "receita": [
+            "Cozinhe o leite, a aveia e a banana até formar um creme.",
+            "Espere amornar e misture o whey.",
+            "Se necessário, bata para deixar mais liso."
+        ],
+        "categorias": [
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Café da manhã",
+            "Textura macia"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Ovos Cremosos com Ricota",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "20–24 g",
+        "ingredientes": {
+            "Ovos": "2 unidades",
+            "Ricota Cremosa": "50g",
+            "Leite": "1 colher"
+        },
+        "receita": [
+            "Cozinhe os ovos em fogo baixo, mexendo continuamente.",
+            "Acrescente a ricota e o leite até formar uma mistura bem cremosa.",
+            "Não deixe pedaços firmes."
+        ],
+        "categorias": [
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Café da manhã",
+            "Textura macia"
+        ],
+        "image": "sem-imagem.png"
+    },
+    {
+        "nome": "Vitamina Proteica de Banana",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "25–30 g",
+        "ingredientes": {
+            "Leite": "200 ml",
+            "Whey Protein": "1 dose",
+            "Banana": "1 unidade",
+            "Iogurte Natural": "2 colheres"
+        },
+        "receita": [
+            "Bata tudo até ficar homogêneo.",
+            "Não precisa adicionar açúcar. Prefira banana a frutas ácidas ou com sementes."
+        ],
+        "categorias": [
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Café da manhã",
+            "Textura macia"
+        ],
+        "image": "vitamina-proteica-de-banana.webp"
+    },
+    {
+        "nome": "Purê de Batata com Frango Cremoso",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "35–40 g",
+        "ingredientes": {
+            "Peito de Frango Cozido": "120g",
+            "Batata": "1 unidade média",
+            "Requeijão": "2 colheres",
+            "Leite": "para ajustar a textura"
+        },
+        "receita": [
+            "Cozinhe e desfie o frango muito bem.",
+            "Bata o frango com um pouco de caldo até ficar cremoso.",
+            "Faça o purê de batata separadamente.",
+            "Misture o requeijão e ajuste a textura com leite."
+        ],
+        "categorias": [
+            "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Textura macia"
+        ],
+        "image": "pure-de-batata-com-frango-cremoso.webp"
+    },
+    {
+        "nome": "Creme de Abóbora com Frango",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "30–35 g",
+        "ingredientes": {
+            "Abóbora": "150g",
+            "Frango Desfiado": "100g cozido",
+            "Azeite": "1 colher",
+            "Caldo do Cozimento": "a gosto"
+        },
+        "receita": [
+            "Cozinhe a abóbora até ficar muito macia.",
+            "Bata com o frango, o azeite e um pouco de caldo até formar um creme uniforme."
+        ],
+        "categorias": [
+            "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Textura macia"
+        ],
+        "image": "creme-de-abobora-com-frango.webp"
+    },
+    {
+        "nome": "Purê de Batata-Doce com Peixe",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "30–35 g",
+        "ingredientes": {
+            "Tilápia": "130g",
+            "Batata Doce": "150g",
+            "Azeite": "1 colher",
+            "Leite": "um pouco"
+        },
+        "receita": [
+            "Cozinhe o peixe até ficar completamente macio e sem espinhas.",
+            "Cozinhe a batata-doce e amasse com o azeite e um pouco de leite.",
+            "Amasse ou processe o peixe junto com o purê até ficar homogêneo."
+        ],
+        "categorias": [
+            "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Textura macia"
+        ],
+        "image": "pure-de-batata-doce-com-peixe.webp"
+    },
+    {
+        "nome": "Risoto Cremoso de Frango",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "30–35 g",
+        "ingredientes": {
+            "Frango Desfiado": "100g",
+            "Arroz Cozido": "3 colheres, bem cozido",
+            "Requeijão": "1 colher",
+            "Caldo de Frango": "a gosto"
+        },
+        "receita": [
+            "Cozinhe o arroz além do ponto habitual, até ficar bem macio.",
+            "Misture o frango triturado e o requeijão.",
+            "Ajuste a textura com o caldo de frango e, se necessário, processe."
+        ],
+        "categorias": [
+            "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Textura macia"
+        ],
+        "image": "risoto-cremoso-de-frango.webp"
+    },
+    {
+        "nome": "Pudim de Chocolate Proteico",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "25–30 g",
+        "ingredientes": {
+            "Iogurte Natural": "170g",
+            "Whey Protein de Chocolate": "1 dose",
+            "Cacau em Pó": "1 colher (opcional)"
+        },
+        "receita": [
+            "Misture até ficar homogêneo.",
+            "Deixe na geladeira por 30 minutos. Não precisa cozinhar."
+        ],
+        "categorias": [
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Textura macia"
+        ],
+        "image": "pudim-de-chocolate-proteico.webp"
+    },
+    {
+        "nome": "Creme de Abacate Proteico",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "20–25 g",
+        "ingredientes": {
+            "Abacate": "100g",
+            "Leite": "150 ml",
+            "Whey Protein de Baunilha": "1 dose"
+        },
+        "receita": [
+            "Bata tudo até ficar bem cremoso.",
+            "Sirva frio, sem pedaços."
+        ],
+        "categorias": [
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Textura macia"
+        ],
+        "image": "creme-de-abacate-proteico.webp"
+    },
+    {
+        "nome": "Creme de Ricota com Banana",
+        "verificado": false,
+        "porção": 1,
+        "proteina": "15–20 g",
+        "ingredientes": {
+            "Ricota": "100g",
+            "Banana": "1 unidade madura",
+            "Iogurte Natural": "2 colheres",
+            "Canela": "opcional"
+        },
+        "receita": [
+            "Bata tudo no liquidificador até formar um creme liso."
+        ],
+        "categorias": [
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Textura macia"
+        ],
+        "image": "creme-de-ricota-com-banana.webp"
     }
 ]

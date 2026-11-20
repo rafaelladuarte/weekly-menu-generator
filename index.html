@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receitas em Harmonia</title>
+    <link rel="icon" href="imagens/favicon.svg" type="image/svg+xml">
     <link rel="icon" href="imagens/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="imagens/apple-touch-icon.png">
+    <meta name="theme-color" content="#2B311B">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
@@ -52,6 +55,7 @@
                     <button class="chip chip-tag" data-tag="Rico em fibras" aria-pressed="false">Rico em fibras</button>
                     <button class="chip chip-tag" data-tag="Baixo carboidrato" aria-pressed="false">Baixo carboidrato</button>
                     <button class="chip chip-tag" data-tag="Leve" aria-pressed="false">Leve</button>
+                    <button class="chip chip-tag" data-tag="Textura macia" aria-pressed="false">Textura macia</button>
                 </div>
             </div>
 
@@ -78,7 +82,7 @@
 
     <script src="app.js"></script>
     <script>
-        const { esc, photoHTML, portions } = App;
+        const { esc, photoHTML, portions, protein } = App;
         let recipes = [];
         let currentCategory = 'all';
         let verifiedOnly = false;
@@ -198,7 +202,7 @@
                     ${photoHTML(recipe)}
                     <div>
                         <h2 class="recipe-title">${esc(recipe.nome)}</h2>
-                        <div class="recipe-meta">${portions(recipe)}${recipe.verificado ? ' · <span class="verified">verificada</span>' : ''}</div>
+                        <div class="recipe-meta">${[portions(recipe), protein(recipe)].filter(Boolean).join(' · ')}${recipe.verificado ? ' · <span class="verified">verificada</span>' : ''}</div>
                     </div>
                 </article>
             `).join('');

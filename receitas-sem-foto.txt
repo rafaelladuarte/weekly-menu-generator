@@ -1,43 +1,20 @@
 # Receitas sem foto - cole a URL da imagem depois de '|' em cada linha
 # Formato: Nome da receita | URL
 
-Galinha Caipira | 
-Linguiça de Frango | 
-Almôndegas | 
-Carne de Panela com Batata | 
-Bife ao Molho Barbecue | 
-Bife à Milanesa | 
-Bife à Parmegiana | 
-Bife de Fígado Acebolado | 
-Picadinho de Carne | 
-Carne Moída | 
-Vaca Atolada | 
-Bife Wellington | 
-Escondidinho de Carne Moída | 
-Rocambole de Carne Moída Recheado | 
-Filé de Peixe à Milanesa | 
-Quibe Recheado com Molho Branco e Mussarela | 
-Lombo a Molho Barbecue | 
-Pernil Assado a Molho Madeira | 
-Picadinho de Pernil ao Cubo | 
-Costelinha Suína Caramelizada | 
-Filé de Porco ao Molho de Laranja e Gengibre | 
-Bisteca de Porco Grelhada | 
-Batata Inglesa Sauté | 
-Berinjela à Milanesa | 
-Virado de Abobrinha | 
-Virado de Couve | 
-Virado de Repolho | 
-Milho Refogado | 
-Couve-flor Gratinada | 
-Batata Frita | 
-Sunomono | 
-Banana Frita | 
-Ratatouille | 
-Brócolis Refogado | 
-Brócolis Gratinado | 
-Mandioca Frita | 
-Guacamole | 
-Berinjela Recheada | 
-Tomate Recheado | 
-Souflé de Legumes | 
+Filé de Tilápia ao Molho Branco | 
+Mousse Proteico de Cacau | 
+Pasta de Grão-de-Bico | 
+Suflê de Ovos com Queijo | 
+Creme de Aveia com Chocolate | 
+Creme de Tapioca com Leite e Whey | 
+Creme Salgado de Ovos e Cottage | 
+Estrogonofe de Carne com Creme de Mandioquinha | 
+Creme de Abóbora com Camarão | 
+Polenta Cremosa com Carne Moída | 
+Creme de Batata com Salmão | 
+Flan Proteico de Chocolate | 
+Mousse de Doce de Leite Proteica | 
+Creme de Banana com Pasta de Amendoim | 
+Arroz-Doce Proteico | 
+Mingau Proteico de Banana | 
+Ovos Cremosos com Ricota | 
