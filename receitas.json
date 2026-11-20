@@ -18,6 +18,11 @@
         "categorias": [
             "Lanches"
         ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato",
+            "Café da manhã"
+        ],
         "image": "omelete.jpg"
     },
     {
@@ -36,6 +41,11 @@
         ],
         "categorias": [
             "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato",
+            "Café da manhã"
         ],
         "image": "iogurte_banana.jpg"
     },
@@ -56,7 +66,7 @@
             "Lanches"
         ],
         "tags": [
-            "Fitness"
+            "Café da manhã"
         ],
         "image": "pao_forma_doce_leite.png"
     },
@@ -79,7 +89,9 @@
             "Lanches"
         ],
         "tags": [
-            "Fitness"
+            "Rico em fibras",
+            "Pré-treino",
+            "Café da manhã"
         ],
         "image": "banana_granola_mel.png"
     },
@@ -99,6 +111,12 @@
         ],
         "categorias": [
             "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Pré-treino",
+            "Pós-treino",
+            "Café da manhã"
         ],
         "image": "tapioca_frango_desfiado.png"
     },
@@ -120,6 +138,12 @@
         "categorias": [
             "Lanches"
         ],
+        "tags": [
+            "Rico em proteína",
+            "Pré-treino",
+            "Pós-treino",
+            "Café da manhã"
+        ],
         "image": "cuscuz_ovo.png"
     },
     {
@@ -137,6 +161,9 @@
         ],
         "categorias": [
             "Lanches"
+        ],
+        "tags": [
+            "Pré-treino"
         ],
         "image": "torrada_ricota.png"
     },
@@ -159,6 +186,11 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato",
+            "Pós-treino"
+        ],
         "image": "salada_de_frango.jpg"
     },
     {
@@ -180,6 +212,7 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [],
         "image": "pure_batata.png"
     },
     {
@@ -192,7 +225,7 @@
             "Leite": "1 colher de sopa",
             "Manteiga": "1 colher de chá",
             "Sal": "A gosto",
-            "Pimenta do Reino": "A gosto"
+            "Pimenta-do-reino": "A gosto"
         },
         "receita": [
             "Corte o pão francês ao meio e, se desejar, torre ligeiramente;",
@@ -203,6 +236,10 @@
         ],
         "categorias": [
             "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Café da manhã"
         ],
         "image": "pao_frances_ovo_mexido.jpg"
     },
@@ -217,7 +254,7 @@
             "Creme de Ricota": "2 colheres de sopa",
             "Tomate": "4 fatias",
             "Sal": "A gosto",
-            "Pimenta do Reino": "A gosto"
+            "Pimenta-do-reino": "A gosto"
         },
         "receita": [
             "Aqueça ligeiramente o wrap em uma frigideira ou micro-ondas.",
@@ -229,6 +266,11 @@
         ],
         "categorias": [
             "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato",
+            "Pós-treino"
         ],
         "image": "wrap_peru_ricota.png"
     },
@@ -243,7 +285,7 @@
             "Azeite": "2 colheres de sopa",
             "Alho": "2 dentes picados",
             "Sal": "a gosto",
-            "Pimenta do Reino": "a gosto"
+            "Pimenta-do-reino": "a gosto"
         },
         "receita": [
             "Tempere o peito de frango com sal, pimenta e alho. Reserve.",
@@ -254,6 +296,11 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Rico em fibras",
+            "Pós-treino"
         ],
         "image": "frango_grelhado_brocolis_batata_doce.png"
     },
@@ -270,7 +317,7 @@
             "Bacon": "50g (picado e frito)",
             "Cebolinha": "a gosto",
             "Sal": "a gosto",
-            "Pimenta do Reino": "a gosto"
+            "Pimenta-do-reino": "a gosto"
         },
         "receita": [
             "Cozinhe as batatas com casca até ficarem macias. Depois, corte ao meio e retire o miolo, formando uma cavidade.",
@@ -284,6 +331,9 @@
         ],
         "categorias": [
             "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína"
         ],
         "image": "batata_recheada_frango.png"
     },
@@ -299,7 +349,7 @@
             "Farinha de Rosca": "Sob Demandas",
             "Mussarela": "2 fatias",
             "Sal": "A gosto",
-            "Pimenta do Reino": "A gosto",
+            "Pimenta-do-reino": "A gosto",
             "Alho": "A gosto"
         },
         "receita": [
@@ -314,6 +364,9 @@
         ],
         "categorias": [
             "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína"
         ],
         "image": "nuggets_caseiro.jpg"
     },
@@ -338,6 +391,10 @@
         "categorias": [
             "Lanches",
             "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Café da manhã"
         ],
         "image": "crepioca_requeijao_peru.png"
     },
@@ -382,6 +439,9 @@
         "categorias": [
             "Lanches"
         ],
+        "tags": [
+            "Rico em proteína"
+        ],
         "image": "panqueca_carne_moida.png"
     },
     {
@@ -397,7 +457,7 @@
             "Farinha de Rosca": "2 colheres de sopa",
             "Azeite": "2 colheres de sopa",
             "Sal": "a gosto",
-            "Pimenta do Reino": "a gosto",
+            "Pimenta-do-reino": "a gosto",
             "Alho": "1 dente picado"
         },
         "receita": [
@@ -409,6 +469,9 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína"
         ],
         "image": "macarrao-almondega.png"
     },
@@ -433,6 +496,10 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato"
+        ],
         "image": "frango-cremoso.jpg"
     },
     {
@@ -455,6 +522,12 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato",
+            "Leve",
+            "Pós-treino"
         ],
         "image": "coxa-sobre-coxa.jpg"
     },
@@ -481,6 +554,9 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína"
+        ],
         "image": "frango-a-parmegiana.jpg"
     },
     {
@@ -506,6 +582,12 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato",
+            "Leve",
+            "Pós-treino"
+        ],
         "image": "frango-xadrez.jpeg"
     },
     {
@@ -527,6 +609,9 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína"
         ],
         "image": "frango-milanesa.png"
     },
@@ -551,6 +636,10 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato"
+        ],
         "image": "strogonoff-de-frango.jpeg"
     },
     {
@@ -561,7 +650,7 @@
             "Filé de Frango": "2 unidades",
             "Azeite": "1 colher de sopa",
             "Sal": "a gosto",
-            "Pimenta do Reino": "a gosto",
+            "Pimenta-do-reino": "a gosto",
             "Alho": "1 dente picado"
         },
         "receita": [
@@ -573,6 +662,12 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato",
+            "Leve",
+            "Pós-treino"
+        ],
         "image": "frango-grelhado.jpg"
     },
     {
@@ -583,7 +678,7 @@
             "Frango Cortado em Pedaços Pequenos": "1kg",
             "Alho": "3 dentes picados",
             "Sal": "a gosto",
-            "Pimenta do Reino": "a gosto",
+            "Pimenta-do-reino": "a gosto",
             "Limão": "1 unidade",
             "Óleo para Fritar": "suficiente para fritar"
         },
@@ -595,6 +690,10 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato"
         ],
         "image": "frango-passarinho.jpg"
     },
@@ -619,6 +718,10 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato"
         ],
         "image": "frango-molho-acafrao.jpg"
     },
@@ -645,6 +748,9 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína"
+        ],
         "image": "lasanha-frango.jpg"
     },
     {
@@ -669,6 +775,9 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína"
+        ],
         "image": "fricasse.webp"
     },
     {
@@ -692,6 +801,9 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína"
         ],
         "image": "escondidinho-frango.jpg"
     },
@@ -719,6 +831,13 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína",
+            "Rico em fibras",
+            "Baixo carboidrato",
+            "Leve",
+            "Pós-treino"
+        ],
         "image": "frango-legumes.jpg"
     },
     {
@@ -740,6 +859,12 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato",
+            "Leve",
+            "Pós-treino"
         ],
         "image": "frango-teriyaki.jpg"
     },
@@ -766,6 +891,11 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato",
+            "Pós-treino"
+        ],
         "image": "Frango-ao-molho-curry.webp"
     },
     {
@@ -789,6 +919,10 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato"
         ],
         "image": "File-de-Frango-ao-Molho-de-Mostarda.jpg"
     },
@@ -815,6 +949,11 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato",
+            "Pós-treino"
+        ],
         "image": "sem-imagem.png"
     },
     {
@@ -832,6 +971,10 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato"
         ],
         "image": "sem-imagem.png"
     },
@@ -859,6 +1002,9 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína"
+        ],
         "image": "sem-imagem.png"
     },
     {
@@ -883,6 +1029,11 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato",
+            "Pós-treino"
+        ],
         "image": "sem-imagem.png"
     },
     {
@@ -904,6 +1055,11 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato",
+            "Pós-treino"
         ],
         "image": "sem-imagem.png"
     },
@@ -927,6 +1083,9 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína"
+        ],
         "image": "sem-imagem.png"
     },
     {
@@ -949,6 +1108,10 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato"
+        ],
         "image": "sem-imagem.png"
     },
     {
@@ -960,7 +1123,7 @@
             "Cebola": "2 unidades cortadas em rodelas",
             "Alho": "2 dentes picados",
             "Sal": "a gosto",
-            "Pimenta do Reino": "a gosto",
+            "Pimenta-do-reino": "a gosto",
             "Óleo ou Manteiga": "2 colheres de sopa"
         },
         "receita": [
@@ -971,6 +1134,10 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato"
         ],
         "image": "sem-imagem.png"
     },
@@ -1000,6 +1167,11 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína",
+            "Rico em fibras",
+            "Pós-treino"
+        ],
         "image": "sem-imagem.png"
     },
     {
@@ -1023,6 +1195,11 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato",
+            "Pós-treino"
         ],
         "image": "sem-imagem.png"
     },
@@ -1051,6 +1228,10 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína",
+            "Pós-treino"
+        ],
         "image": "sem-imagem.png"
     },
     {
@@ -1076,6 +1257,9 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína"
+        ],
         "image": "sem-imagem.png"
     },
     {
@@ -1100,6 +1284,9 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína"
         ],
         "image": "sem-imagem.png"
     },
@@ -1127,6 +1314,9 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína"
+        ],
         "image": "sem-imagem.png"
     },
     {
@@ -1148,6 +1338,9 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína"
         ],
         "image": "sem-imagem.png"
     },
@@ -1175,6 +1368,9 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína"
+        ],
         "image": "sem-imagem.png"
     },
     {
@@ -1186,7 +1382,7 @@
             "Molho Barbecue": "1/2 xícara",
             "Alho": "3 dentes picados",
             "Sal": "a gosto",
-            "Pimenta do Reino": "a gosto",
+            "Pimenta-do-reino": "a gosto",
             "Azeite": "2 colheres de sopa"
         },
         "receita": [
@@ -1198,6 +1394,11 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato",
+            "Pós-treino"
         ],
         "image": "sem-imagem.png"
     },
@@ -1212,7 +1413,7 @@
             "Cebola": "1 unidade picada",
             "Vinho Tinto": "1/2 xícara",
             "Sal": "a gosto",
-            "Pimenta do Reino": "a gosto"
+            "Pimenta-do-reino": "a gosto"
         },
         "receita": [
             "Tempere o pernil com alho, cebola, vinho tinto, sal e pimenta. Deixe marinar por 12 horas.",
@@ -1222,6 +1423,12 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato",
+            "Leve",
+            "Pós-treino"
         ],
         "image": "sem-imagem.png"
     },
@@ -1236,7 +1443,7 @@
             "Pimentão": "1 unidade picado",
             "Tomate": "2 unidades picadas",
             "Sal": "a gosto",
-            "Pimenta do Reino": "a gosto"
+            "Pimenta-do-reino": "a gosto"
         },
         "receita": [
             "Aqueça o azeite em uma panela e refogue o alho e a cebola até dourar.",
@@ -1246,6 +1453,11 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato",
+            "Pós-treino"
         ],
         "image": "sem-imagem.png"
     },
@@ -1262,7 +1474,7 @@
             "Mel": "2 colheres de sopa",
             "Vinagre": "2 colheres de sopa",
             "Sal": "a gosto",
-            "Pimenta do Reino": "a gosto",
+            "Pimenta-do-reino": "a gosto",
             "Óleo": "2 colheres de sopa"
         },
         "receita": [
@@ -1274,6 +1486,10 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Pós-treino"
         ],
         "image": "sem-imagem.png"
     },
@@ -1290,7 +1506,7 @@
             "Mel": "1 colher de sopa",
             "Azeite": "2 colheres de sopa",
             "Sal": "a gosto",
-            "Pimenta do Reino": "a gosto"
+            "Pimenta-do-reino": "a gosto"
         },
         "receita": [
             "Tempere o filé de porco com sal e pimenta.",
@@ -1303,6 +1519,10 @@
         "categorias": [
             "Prato Principal"
         ],
+        "tags": [
+            "Rico em proteína",
+            "Pós-treino"
+        ],
         "image": "sem-imagem.png"
     },
     {
@@ -1314,7 +1534,7 @@
             "Alho": "2 dentes picados",
             "Limão": "1 unidade (suco)",
             "Sal": "a gosto",
-            "Pimenta do Reino": "a gosto",
+            "Pimenta-do-reino": "a gosto",
             "Azeite": "2 colheres de sopa"
         },
         "receita": [
@@ -1325,6 +1545,12 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato",
+            "Leve",
+            "Pós-treino"
         ],
         "image": "sem-imagem.png"
     },
@@ -1354,6 +1580,9 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [
+            "Pré-treino"
+        ],
         "image": "macarrao-primavera.jpg"
     },
     {
@@ -1377,6 +1606,7 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [],
         "image": "mandioca-amanteigada.jpg"
     },
     {
@@ -1401,6 +1631,10 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [
+            "Rico em fibras",
+            "Leve"
+        ],
         "image": "repolho-refogado.webp"
     },
     {
@@ -1424,6 +1658,10 @@
         ],
         "categorias": [
             "Guarnição"
+        ],
+        "tags": [
+            "Rico em fibras",
+            "Leve"
         ],
         "image": "chuchu-refogado.jpg"
     },
@@ -1451,6 +1689,9 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [
+            "Rico em fibras"
+        ],
         "image": "seleta-legumes.jpg"
     },
     {
@@ -1477,6 +1718,7 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [],
         "image": "creme-milho.jpg"
     },
     {
@@ -1485,7 +1727,7 @@
         "porção": 6,
         "ingredientes": {
             "Cenoura": "1 unidade média ralada",
-            "Farinha de mandioca": "1 xícara",
+            "Farinha de Mandioca": "1 xícara",
             "Farinha de milho": "1 xícara",
             "Ervilha (conserva)": "1/2 xícara",
             "Milho (conserva)": "1/2 xícara",
@@ -1505,6 +1747,10 @@
         ],
         "categorias": [
             "Guarnição"
+        ],
+        "tags": [
+            "Rico em fibras",
+            "Pré-treino"
         ],
         "image": "farofa-de-confete.webp"
     },
@@ -1527,6 +1773,9 @@
         ],
         "categorias": [
             "Guarnição"
+        ],
+        "tags": [
+            "Rico em fibras"
         ],
         "image": "pure-batata-doce.webp"
     },
@@ -1551,6 +1800,10 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [
+            "Rico em fibras",
+            "Pré-treino"
+        ],
         "image": "batata-doce-rustica.jpg"
     },
     {
@@ -1573,6 +1826,7 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [],
         "image": "batata-inglesa-cozida.webp"
     },
     {
@@ -1596,6 +1850,7 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [],
         "image": "batata-inglesa-rustica.webp"
     },
     {
@@ -1623,6 +1878,7 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [],
         "image": "batata-inglesa-gratinada.jpg"
     },
     {
@@ -1644,6 +1900,9 @@
         ],
         "categorias": [
             "Guarnição"
+        ],
+        "tags": [
+            "Rico em fibras"
         ],
         "image": "pure-de-abobora.jpg"
     },
@@ -1670,6 +1929,10 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [
+            "Rico em fibras",
+            "Leve"
+        ],
         "image": "abobora-cabotia-refogada.webp"
     },
     {
@@ -1694,6 +1957,10 @@
         ],
         "categorias": [
             "Guarnição"
+        ],
+        "tags": [
+            "Rico em fibras",
+            "Leve"
         ],
         "image": "abobrinha-italiana-refogada.jpg"
     },
@@ -1721,6 +1988,9 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [
+            "Rico em fibras"
+        ],
         "image": "salada-batata-maionese.avif"
     },
     {
@@ -1745,6 +2015,9 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [
+            "Rico em fibras"
+        ],
         "image": "couve-refogada-bacon.jpeg"
     },
     {
@@ -1767,6 +2040,7 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [],
         "image": "pure-mandioca.webp"
     },
     {
@@ -1792,6 +2066,7 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [],
         "image": "pure-banana-terra.jpg"
     },
     {
@@ -1814,6 +2089,7 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [],
         "image": "sem-imagem.png"
     },
     {
@@ -1827,7 +2103,7 @@
             "Farinha de Trigo": "1/2 xícara",
             "Sal": "a gosto",
             "Pimenta-do-reino": "a gosto",
-            "Óleo para fritar": "suficiente"
+            "Óleo para Fritar": "suficiente"
         },
         "receita": [
             "Corte as berinjelas em fatias médias e tempere com sal e pimenta-do-reino.",
@@ -1837,6 +2113,9 @@
         ],
         "categorias": [
             "Guarnição"
+        ],
+        "tags": [
+            "Rico em fibras"
         ],
         "image": "sem-imagem.png"
     },
@@ -1863,6 +2142,10 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [
+            "Rico em fibras",
+            "Pré-treino"
+        ],
         "image": "sem-imagem.png"
     },
     {
@@ -1886,6 +2169,10 @@
         ],
         "categorias": [
             "Guarnição"
+        ],
+        "tags": [
+            "Rico em fibras",
+            "Pré-treino"
         ],
         "image": "sem-imagem.png"
     },
@@ -1911,6 +2198,10 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [
+            "Rico em fibras",
+            "Pré-treino"
+        ],
         "image": "sem-imagem.png"
     },
     {
@@ -1935,6 +2226,7 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [],
         "image": "sem-imagem.png"
     },
     {
@@ -1959,6 +2251,9 @@
         ],
         "categorias": [
             "Guarnição"
+        ],
+        "tags": [
+            "Rico em fibras"
         ],
         "image": "sem-imagem.png"
     },
@@ -1988,6 +2283,10 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [
+            "Rico em fibras",
+            "Leve"
+        ],
         "image": "caponata-berinjela.webp"
     },
     {
@@ -1996,7 +2295,7 @@
         "porção": 4,
         "ingredientes": {
             "Batata": "500g",
-            "Óleo para fritar": "suficiente",
+            "Óleo para Fritar": "suficiente",
             "Sal": "a gosto"
         },
         "receita": [
@@ -2009,6 +2308,7 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [],
         "image": "sem-imagem.png"
     },
     {
@@ -2032,6 +2332,7 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [],
         "image": "sem-imagem.png"
     },
     {
@@ -2040,7 +2341,7 @@
         "porção": 4,
         "ingredientes": {
             "Banana": "4 unidades",
-            "Óleo para fritar": "suficiente",
+            "Óleo para Fritar": "suficiente",
             "Açúcar": "2 colheres de sopa",
             "Canela em Pó": "1 colher de chá"
         },
@@ -2053,11 +2354,11 @@
         "categorias": [
             "Guarnição"
         ],
+        "tags": [],
         "image": "sem-imagem.png"
     },
     {
         "nome": "Ratatouille",
-        "porcao": "4 porções",
         "verificado": false,
         "receita": [
             "Corte a berinjela, abobrinha, pimentão, tomate e cebola em rodelas finas.",
@@ -2076,16 +2377,21 @@
             "Azeite": "2 colheres de sopa",
             "Ervas de Provence": "a gosto",
             "Sal": "a gosto",
-            "Pimenta do Reino": "a gosto"
+            "Pimenta-do-reino": "a gosto"
         },
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "tags": [
+            "Rico em fibras",
+            "Baixo carboidrato",
+            "Leve"
+        ],
+        "image": "sem-imagem.png",
+        "porção": "4 porções"
     },
     {
         "nome": "Brócolis Refogado",
-        "porcao": "2 porções",
         "verificado": false,
         "receita": [
             "Lave e corte o brócolis em pedaços.",
@@ -2104,11 +2410,15 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "tags": [
+            "Rico em fibras",
+            "Leve"
+        ],
+        "image": "sem-imagem.png",
+        "porção": "2 porções"
     },
     {
         "nome": "Brócolis Gratinado",
-        "porcao": "3 porções",
         "verificado": false,
         "receita": [
             "Cozinhe o brócolis em água com sal até ficar macio.",
@@ -2127,11 +2437,14 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "tags": [
+            "Rico em fibras"
+        ],
+        "image": "sem-imagem.png",
+        "porção": "3 porções"
     },
     {
         "nome": "Mandioca Frita",
-        "porcao": "2 porções",
         "verificado": false,
         "receita": [
             "Cozinhe a mandioca em água com sal até ficar macia.",
@@ -2149,11 +2462,12 @@
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "tags": [],
+        "image": "sem-imagem.png",
+        "porção": "2 porções"
     },
     {
         "nome": "Guacamole",
-        "porcao": "2 porções",
         "verificado": false,
         "receita": [
             "Retire a polpa do abacate e coloque em uma tigela.",
@@ -2169,16 +2483,20 @@
             "Coentro": "a gosto",
             "Suco de Limão": "1 colher de sopa",
             "Sal": "a gosto",
-            "Pimenta do Reino": "a gosto"
+            "Pimenta-do-reino": "a gosto"
         },
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "tags": [
+            "Rico em fibras",
+            "Leve"
+        ],
+        "image": "sem-imagem.png",
+        "porção": "2 porções"
     },
     {
         "nome": "Berinjela Recheada",
-        "porcao": "2 porções",
         "verificado": false,
         "receita": [
             "Corte a berinjela ao meio no sentido do comprimento.",
@@ -2196,16 +2514,19 @@
             "Molho de Tomate": "1/2 xícara",
             "Queijo Ralado": "50g",
             "Sal": "a gosto",
-            "Pimenta do Reino": "a gosto"
+            "Pimenta-do-reino": "a gosto"
         },
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "tags": [
+            "Rico em fibras"
+        ],
+        "image": "sem-imagem.png",
+        "porção": "2 porções"
     },
     {
         "nome": "Tomate Recheado",
-        "porcao": "2 porções",
         "verificado": false,
         "receita": [
             "Corte a tampa dos tomates e retire o miolo.",
@@ -2222,16 +2543,17 @@
             "Queijo Ralado": "50g",
             "Azeite": "1 colher de sopa",
             "Sal": "a gosto",
-            "Pimenta do Reino": "a gosto"
+            "Pimenta-do-reino": "a gosto"
         },
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "tags": [],
+        "image": "sem-imagem.png",
+        "porção": "2 porções"
     },
     {
         "nome": "Souflé de Legumes",
-        "porcao": "4 porções",
         "verificado": false,
         "receita": [
             "Cozinhe os legumes variados (cenoura, abobrinha, brócolis).",
@@ -2249,16 +2571,17 @@
             "Queijo Ralado": "50g",
             "Manteiga": "1 colher de sopa",
             "Sal": "a gosto",
-            "Pimenta do Reino": "a gosto"
+            "Pimenta-do-reino": "a gosto"
         },
         "categorias": [
             "Guarnição"
         ],
-        "image": "sem-imagem.png"
+        "tags": [],
+        "image": "sem-imagem.png",
+        "porção": "4 porções"
     },
     {
         "nome": "Smoothie de Beterraba com Morango",
-        "porcao": "1 porção",
         "verificado": true,
         "receita": [
             "Despeje os ingredientes no liquidificador.",
@@ -2274,9 +2597,12 @@
             "Lanches"
         ],
         "tags": [
-            "Fitness"
+            "Rico em fibras",
+            "Leve",
+            "Café da manhã"
         ],
-        "image": "smoothie_morango_beterraba.png"
+        "image": "smoothie_morango_beterraba.png",
+        "porção": "1 porção"
     },
     {
         "nome": "Mix de Folhas Verdes",
@@ -2302,6 +2628,11 @@
         "categorias": [
             "Salada"
         ],
+        "tags": [
+            "Rico em fibras",
+            "Baixo carboidrato",
+            "Leve"
+        ],
         "image": "mix-folhas-verdes.webp"
     },
     {
@@ -2325,6 +2656,10 @@
         "categorias": [
             "Salada"
         ],
+        "tags": [
+            "Rico em fibras",
+            "Leve"
+        ],
         "image": "salada-agriao-tomate.jpg"
     },
     {
@@ -2334,7 +2669,7 @@
         "ingredientes": {
             "Rúcula": "1 maço",
             "Tomate seco": "100 g",
-            "Queijo parmesão": "50 g",
+            "Queijo Parmesão": "50 g",
             "Azeite": "2 colheres de sopa",
             "Sal": "a gosto"
         },
@@ -2347,6 +2682,10 @@
         ],
         "categorias": [
             "Salada"
+        ],
+        "tags": [
+            "Rico em fibras",
+            "Leve"
         ],
         "image": "salada-rucula-tomate-seco.webp"
     },
@@ -2371,6 +2710,10 @@
         "categorias": [
             "Salada"
         ],
+        "tags": [
+            "Rico em fibras",
+            "Leve"
+        ],
         "image": "salada-espinafre-maca.jpg"
     },
     {
@@ -2393,6 +2736,9 @@
         ],
         "categorias": [
             "Salada"
+        ],
+        "tags": [
+            "Leve"
         ],
         "image": "salada-caprese.webp"
     },
@@ -2419,6 +2765,9 @@
         "categorias": [
             "Salada"
         ],
+        "tags": [
+            "Leve"
+        ],
         "image": "salada-grega.avif"
     },
     {
@@ -2441,6 +2790,9 @@
         ],
         "categorias": [
             "Salada"
+        ],
+        "tags": [
+            "Rico em fibras"
         ],
         "image": "salada-repolho.jpg"
     },
@@ -2467,6 +2819,9 @@
         "categorias": [
             "Salada"
         ],
+        "tags": [
+            "Leve"
+        ],
         "image": "salada-tropical.jpg"
     },
     {
@@ -2474,7 +2829,7 @@
         "verificado": false,
         "porção": 4,
         "ingredientes": {
-            "Amido de milho": "1 colher de sopa",
+            "Amido de Milho": "1 colher de sopa",
             "Água": "Meia xícara de chá",
             "Molho de soja tipo shoyu": "1/4 xícara de chá",
             "Filés de Atum em Azeite Gomes da Costa": "2 latas",
@@ -2496,6 +2851,10 @@
         ],
         "categorias": [
             "Prato Principal"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Pós-treino"
         ],
         "image": "atum-xadrez.jpg"
     },
@@ -2525,7 +2884,11 @@
             "Sirva em seguida."
         ],
         "categorias": [
-            "Lanche"
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato"
         ],
         "image": "tortilla-de-arfryer-atum.jpg"
     },
@@ -2554,7 +2917,10 @@
             "Sirva acompanhado de alface e cebola roxa."
         ],
         "categorias": [
-            "Lanche"
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína"
         ],
         "image": "batata-rosti-atum.jpg"
     },
@@ -2567,7 +2933,7 @@
             "Margarina": "para untar",
             "Requeijão tipo Catupiry": "1 colher de sopa",
             "Atum em Pedaços em Óleo Gomes da Costa": "2 colheres de sopa",
-            "Queijo mussarela": "2 fatias",
+            "Queijo Mussarela": "2 fatias",
             "Tomate": "2 rodelas médias",
             "Orégano": "a gosto"
         },
@@ -2580,7 +2946,11 @@
             "Sirva imediatamente."
         ],
         "categorias": [
-            "Lanche"
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Rico em fibras"
         ],
         "image": "sanduiche-de-atum-mussarela-tomate-e-catupiry.jpg"
     },
@@ -2605,7 +2975,11 @@
             "Finalize com mais salsinha e mantenha na geladeira até servir."
         ],
         "categorias": [
-            "Lanche"
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato"
         ],
         "image": "pate-de-atum.png"
     },
@@ -2628,7 +3002,12 @@
             "Retire quando estiver cozido e sirva com salada."
         ],
         "categorias": [
-            "Lanche"
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato",
+            "Pós-treino"
         ],
         "image": "omelete-de-atum.png"
     },
@@ -2651,7 +3030,12 @@
             "Sirva em seguida."
         ],
         "categorias": [
-            "Lanche"
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Pré-treino",
+            "Pós-treino"
         ],
         "image": "bruschettas-atum.jpg"
     },
@@ -2661,7 +3045,7 @@
         "porção": 8,
         "ingredientes": {
             "Caldo de legumes": "1/4 xícara de chá",
-            "Suco de limão": "3 e meia colheres de sopa",
+            "Suco de Limão": "3 e meia colheres de sopa",
             "Cebola": "Meia unidade pequena",
             "Alho": "2 dentes pequenos",
             "Salsão": "1 talo pequeno",
@@ -2682,7 +3066,12 @@
             "Sirva imediatamente."
         ],
         "categorias": [
-            "Lanche"
+            "Lanches"
+        ],
+        "tags": [
+            "Rico em proteína",
+            "Baixo carboidrato",
+            "Pós-treino"
         ],
         "image": "ceviche-de-atum.jpg"
     }
